@@ -1,8 +1,9 @@
 # Site wide configuration
 
-title:            Site Title
+title:            Code is poetry
 locale:           en_US
-url:              
+#url:              http://jihedamine.github.io/
+url:              http://localhost:4000
 
 
 # Jekyll configuration
@@ -26,11 +27,13 @@ kramdown:
 
 # Site owner
 owner:
-  name: Your Name
+  name: Jihed Amine Maaref
   avatar: bio-photo.jpg
-  bio: "Describe your self."
-  email: 
-  disqus-shortname: 
+  bio: "Java Analyst/Developer"
+  email: jihedamine@gmail.com
+  github: jihedamine
+  linkedin: jihedamine
+  disqus-shortname: jihedamine
   twitter: #username
   facebook: #username
   google:
@@ -40,9 +43,7 @@ owner:
     ad-client: 
     ad-slot: 
   bing-verify: 
-  github: #username
   stackoverflow: #http://stackoverflow.com/users/123456/username
-  linkedin: #username
   xing: #username
   instagram: #username
   lastfm: #username

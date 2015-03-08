@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>http://localhost:4000/joshua-bloch-chess-and-scala/</loc>
+    <lastmod>2010-07-28T00:00:00-04:00</lastmod>
+  </url>
+  <url>
+    <loc>http://localhost:4000/linux/postgres/setup-postgres-database-on-fedora-11/</loc>
+    <lastmod>2010-04-15T21:41:00-04:00</lastmod>
+  </url>
+  <url>
+    <loc>http://localhost:4000/latex/latexdiff/differences-between-two-versions-of/</loc>
+    <lastmod>2010-04-15T21:41:00-04:00</lastmod>
+  </url>
+  <url>
+    <loc>http://localhost:4000/java/design/oo/specialization-in-object-oriented/</loc>
+    <lastmod>2010-04-15T21:40:00-04:00</lastmod>
+  </url>
+  <url>
+    <loc>http://localhost:4000/usplash/linux/enabling-high-resolution-console-in/</loc>
+    <lastmod>2008-02-25T19:32:00-05:00</lastmod>
+  </url>
+  <url>
+    <loc>http://localhost:4000/bash/linux/cron/automatically-changing-wallpaper/</loc>
+    <lastmod>2008-02-15T15:24:00-05:00</lastmod>
+  </url>
+  <url>
+    <loc>http://localhost:4000/java/eclipse/netbeans/why-i-tend-to-prefer-netbeans-over/</loc>
+    <lastmod>2007-11-16T13:15:00-05:00</lastmod>
+  </url>
+  <url>
+    <loc>http://localhost:4000/hello-world/</loc>
+    <lastmod>2007-10-22T17:16:00-04:00</lastmod>
+  </url>
+  <url>
+    <loc>http://localhost:4000/about/</loc>
+    <lastmod>2015-03-07T22:25:57-05:00</lastmod>
+  </url>
+  <url>
+    <loc>http://localhost:4000/posts/</loc>
+    <lastmod>2015-03-07T22:25:57-05:00</lastmod>
+  </url>
+  <url>
+    <loc>http://localhost:4000/</loc>
+    <lastmod>2015-03-07T22:25:57-05:00</lastmod>
+  </url>
+</urlset>

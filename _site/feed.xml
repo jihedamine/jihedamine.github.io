@@ -1,0 +1,478 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+<title type="text">Code is poetry</title>
+<generator uri="https://github.com/jekyll/jekyll">Jekyll</generator>
+<link rel="self" type="application/atom+xml" href="http://localhost:4000/feed.xml" />
+<link rel="alternate" type="text/html" href="http://localhost:4000" />
+<updated>2015-03-07T22:25:57-05:00</updated>
+<id>http://localhost:4000/</id>
+<author>
+  <name>Jihed Amine Maaref</name>
+  <uri>http://localhost:4000/</uri>
+  <email>jihedamine@gmail.com</email>
+</author>
+
+
+  
+
+<entry>
+  <title type="html"><![CDATA[Joshua Bloch, Chess and Scala]]></title>
+  <link rel="alternate" type="text/html" href="http://localhost:4000/joshua-bloch-chess-and-scala/" />
+  <id>http://localhost:4000/joshua-bloch-chess-and-scala</id>
+  <published>2010-07-28T00:00:00-04:00</published>
+  <updated>2010-07-28T00:00:00-04:00</updated>
+  <author>
+    <name>Jihed Amine Maaref</name>
+    <uri>http://localhost:4000</uri>
+    <email>jihedamine@gmail.com</email>
+  </author>
+  <content type="html">
+    &lt;h2 id=&quot;joshua-bloch&quot;&gt;Joshua Bloch&lt;/h2&gt;
+&lt;p&gt;Joshua Bloch was a senior staff engineer at Sun Microsystems and an architect in the core Java platform group. He designed and implemented the Collections Framework and contributed to many other parts of the platform. He is now a Chief Java architect at Google. He holds a Ph.D. in computer science from Carnegie-Mellon University. During the defense of his dissertation, which was open to the public, he arranged for his mother to ask a long technical question that he answered flawlessly after saying, “Awww, Mom!”. He responded to another prepared question with a rap song, backed by a recorded rhythm track played on a boom box concealed under the desk. After all these years, he didn’t lose this entertaining and engaging attitude and you will probably laugh a time or two watching his talks.&lt;/p&gt;
+
+&lt;p&gt;I am currently reading Joshua Bloch’s &lt;a href=&quot;http://www.amazon.com/Effective-Java-2nd-Joshua-Bloch/dp/0321356683/ref=sr_1_1?ie=UTF8&amp;amp;s=books&amp;amp;qid=1280285741&amp;amp;sr=8-1&quot;&gt;Effective Java 2nd Edition&lt;/a&gt; and I’m enjoying it. Given his deep knowledge of the language and his top level and long experience, Joshua justifies the use of each item in the book with both very practical low level arguments and high level, design arguments. The eventual disadvantages and caveats of a decision, if any, are explained and we get out of every item with a “moral” that’s widely applicable for Java programming and sometimes for other languages.&lt;/p&gt;
+
+&lt;p&gt;I think, the most valuable teaching of the book, beyond the principles to apply in everyday programming, is how to think. You benefit from Joshua’s aptitude to assemble pieces, to weight choices and to learn lessons from bad decisions made in previous Java versions.&lt;/p&gt;
+
+&lt;p&gt;Beyond the knowledge, this guy is very skilled at communicating and engaging his audience. I saw three presentations of him that I recommend to everyone:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.youtube.com/watch?v=V1vQf4qyMXg&quot;&gt;This one&lt;/a&gt; is about the book, Effective Java. Joshua begins with two nice puzzlers demonstrating the difference between what you &lt;em&gt;think&lt;/em&gt; something is and what it is &lt;em&gt;actually&lt;/em&gt;. He goes on with Generics (a long section), Enums, Varags, Concurrency and Serialization (this one is nice too). The “dessert” is a final puzzler.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.youtube.com/watch?v=RR1E5zO-eBo&quot;&gt;The second presentation&lt;/a&gt; is about GWT or “gwit” as they call it at Google. Very interactive session where Josh responds to the host and to attendees.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.youtube.com/watch?v=aAb7hSCtvGw&quot;&gt;The third one&lt;/a&gt; gives a lot of precious advice on good API design.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The three talks are highly engaging. You don’t get bored a single minute. At times, I stopped and repeated sections in order to better understand them. It is obvious that the guy knows what he is talking about. It’s like getting advice on how to play soccer from Maradona (or Basketball from Michael Jordan if you’re a North American reader)&lt;/p&gt;
+
+&lt;h2 id=&quot;chess-analogy&quot;&gt;Chess analogy&lt;/h2&gt;
+&lt;p&gt;Watching and reading Joshua Bloch made me think of an analogy with Chess Grandmasters. I think software development is similar to chess as it is at the same time a science and an art:&lt;/p&gt;
+
+&lt;p&gt;In chess, everybody knows how to move pieces, what are their values, what are the main openings and attacking strategies (pins, discovery attacks, etc). But the art resides in &lt;em&gt;how&lt;/em&gt; and &lt;em&gt;when&lt;/em&gt; you use these techniques. Even though the rules are the same, there is no chess game like the other. Experts develop knowledge from deep theory understanding and heavy practice. They have a global vision of the state of the art, they know the pitfalls, they can see where they’re heading earlier than less skilled players. This experience combined with creativity produces “masterpieces”.&lt;/p&gt;
+
+&lt;p&gt;The same holds true for software development. We all know how to declare a class, how to do inheritance, we know some design patterns, etc. But when people like Joshua Bloch or Martin Fowler explain their design decisions, it looks more like art than science. They address the low level issues like JVM behavior and hardware constraints while, at the same time, being careful about the higher level requirements like modularity, coherence and extensibility. They produce elegant and efficient solutions. They get the hole picture and they see the long term implications of their decisions.&lt;/p&gt;
+
+&lt;p&gt;Another similarity is that both Chess and Software Development are constantly reinventing themselves. The possibilities seem infinite and there are always new ways of doing things, using the same core principles.&lt;/p&gt;
+
+&lt;h2 id=&quot;scala-language&quot;&gt;Scala language&lt;/h2&gt;
+&lt;p&gt;The more I heard from Josh, the more I was eager to learn Scala. Not that he promotes it, but he points out a lot of bad decisions made through the long life of the Java language that sticked with it for backward compatibility reasons.&lt;/p&gt;
+
+&lt;p&gt;In an interview, he quoted someone saying that every seven years, it is a good idea to hit the reset button. The Java language is nearly 15 years old and it’s really time to hit the reset button! So why Scala ?&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Scala runs on the JVM and is able to call Java libraries: The JVM is a very mature and performant platform and the Java ecosystem is very rich with a bunch of libraries for nearly everything. It would be a mess not to reuse these valuable assets.&lt;/li&gt;
+  &lt;li&gt;Scala is statically typed: In his talks, Joshua repeatedly stresses the benefits of catching errors as soon as possible. It is ugly to throw a runtime error and the sooner the fix comes, the better it is.&lt;/li&gt;
+  &lt;li&gt;Scala has an advanced typing system: Scala is able to do type inference, resulting in more readable and concise code, while getting the safety of statically typed languages.&lt;/li&gt;
+  &lt;li&gt;Scala has dedicated and efficient libraries for concurrent programming: Joshua talks about concurrency in Efficient Java. He acknowledges that nowadays, with multicore processors, concurrency is a crucial aspect. He criticizes shortcomings in the original java.util.concurrent library while praising the newer constructs like ConcurrentMap because they are higher level than the “synchronized” keyword, lifting the burden of synchronization management from the developer to the language. Scala actors are a very nice concurrency abstraction. Actually, they are one of the main assets of the language.&lt;/li&gt;
+  &lt;li&gt;Scala natively supports functional programming: Joshua Bloch is against adding closures to Java. He justifies his opinion saying that Java grew far more complex in Java 5 with generics and autoboxing and varags. If you worry about the interaction between all these features, you get an exponential complexity growth. Closures would add a structural type system to an already complex nominal type system. Scala has been designed from the start as a mixture of object oriented and functional paradigms, so the interaction between both is pretty well handled from the start.&lt;/li&gt;
+  &lt;li&gt;Scala has other advantages like allowing to write powerful DSLs (Domain Specific Languages).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;So I feel that an aging Java has become less and less prone to innovation and that Scala has all it takes to fullfill developer needs in building robust, scalable and highly maintainable enterprise level applications for the years to come.&lt;/p&gt;
+
+&lt;h2 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h2&gt;
+&lt;p&gt;It is very enjoyable and motivating to read and hear from proficient programmers. It makes me realize that I am lucky to have chosen a field that allows creativity and is an inexhaustible source of excitement.&lt;/p&gt;
+
+    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/joshua-bloch-chess-and-scala/&quot;&gt;Joshua Bloch, Chess and Scala&lt;/a&gt; was originally published by Jihed Amine Maaref at &lt;a href=&quot;http://localhost:4000&quot;&gt;Code is poetry&lt;/a&gt; on July 28, 2010.&lt;/p&gt;
+  </content>
+</entry>
+
+
+  
+
+<entry>
+  <title type="html"><![CDATA[Setup a PostgreSQL Database on Fedora 11]]></title>
+  <link rel="alternate" type="text/html" href="http://localhost:4000/linux/postgres/setup-postgres-database-on-fedora-11/" />
+  <id>http://localhost:4000/linux/postgres/setup-postgres-database-on-fedora-11</id>
+  <published>2010-04-15T21:41:00-04:00</published>
+  <updated>2010-04-15T21:41:00-04:00</updated>
+  <author>
+    <name>Jihed Amine Maaref</name>
+    <uri>http://localhost:4000</uri>
+    <email>jihedamine@gmail.com</email>
+  </author>
+  <content type="html">
+    &lt;p&gt;I found some blog posts and tutorials on how to set up a Postgres server and initiate a database. To make it work on my Fedora 11 system, I made a mix of the various instructions found here and there. Therefore, I’m publishing the steps I had to follow to get a Postgres server running and setup an initial database on Fedora 11 (it should be similar on other Unix systems).&lt;/p&gt;
+
+&lt;h2 id=&quot;as-root&quot;&gt;As root:&lt;/h2&gt;
+&lt;p&gt;1- Install postgres-server, it will install the required postgres client dependency:&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;yum install postgresql-server&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;2- Initialize the cluster, then start the server&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;service postgresql initdb
+service postgresql start&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;3- Edit the pg_hba configuration file to change authentication permissions. Open the file in a text editor:&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;vi /var/lib/pgsql/data/pg_hba.conf&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;set authentication method to trust instead of ident sameuser for local socket, IPv4 and IPv6 connections.&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;c&quot;&gt;# TYPE  DATABASE    USER        CIDR-ADDRESS          METHOD&lt;/span&gt;
+&lt;span class=&quot;c&quot;&gt;# local is for Unix domain socket connections only&lt;/span&gt;
+&lt;span class=&quot;nb&quot;&gt;local   &lt;/span&gt;all         all                               trust
+&lt;span class=&quot;c&quot;&gt;# IPv4 local connections:&lt;/span&gt;
+host    all         all         127.0.0.1/32          trust
+&lt;span class=&quot;c&quot;&gt;# IPv6 local connections:&lt;/span&gt;
+host    all         all         ::1/128               trust&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;4- Restart Postgres server so that the changes take effect&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;service postgresql restart&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;as-regular-user&quot;&gt;As regular user:&lt;/h2&gt;
+
+&lt;p&gt;5- Connect to the database using the default account postgres. You will be prompted for a password. Account postgres has a password by default that is ‘postgres’.&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;su - postgres&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;6- Initialize a database cluster and create your database:&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;initdb -D database_cluster_name
+createdb database_name&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+
+    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/linux/postgres/setup-postgres-database-on-fedora-11/&quot;&gt;Setup a PostgreSQL Database on Fedora 11&lt;/a&gt; was originally published by Jihed Amine Maaref at &lt;a href=&quot;http://localhost:4000&quot;&gt;Code is poetry&lt;/a&gt; on April 15, 2010.&lt;/p&gt;
+  </content>
+</entry>
+
+
+  
+
+<entry>
+  <title type="html"><![CDATA[Differences between two versions of the same latex document]]></title>
+  <link rel="alternate" type="text/html" href="http://localhost:4000/latex/latexdiff/differences-between-two-versions-of/" />
+  <id>http://localhost:4000/latex/latexdiff/differences-between-two-versions-of</id>
+  <published>2010-04-15T21:41:00-04:00</published>
+  <updated>2010-04-15T21:41:00-04:00</updated>
+  <author>
+    <name>Jihed Amine Maaref</name>
+    <uri>http://localhost:4000</uri>
+    <email>jihedamine@gmail.com</email>
+  </author>
+  <content type="html">
+    &lt;p&gt;&lt;a href=&quot;http://www.ctan.org/tex-archive/support/latexdiff/&quot;&gt;Latexdiff&lt;/a&gt; is a free perl script that highlights what has been added and what has been deleted between two versions of a latex document.&lt;/p&gt;
+
+&lt;p&gt;The script is used as follows:&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;latexdiff oldversion.tex newversion.tex &amp;gt; diffversion.tex&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;oldversion.tex is the old version of the latex document, newversion.tex is the newer one and diffversion.tex is a generated version that uses some custom latex commands to highlight the differences between the two documents passed as parameters.&lt;/p&gt;
+
+&lt;p&gt;While preprocessing a document, Latexdiff script replaces the \^ escape character with a custom command \SUPERSCRIPT (or SUPERSCRIPTNB).&lt;/p&gt;
+
+&lt;p&gt;In postprocessing, it reverts back to the \^ character.&lt;/p&gt;
+
+&lt;p&gt;However, as I am writing a latex document in french, I didn’t mean to use ^ to write a superscript but to write the circumflex accent.&lt;/p&gt;
+
+&lt;p&gt;For example, t\^{e}te meant tête, not t&lt;sup&gt;e&lt;/sup&gt;te.&lt;/p&gt;
+
+&lt;p&gt;As a consequence, the generated diff document had errors everywhere  \^ was used to write circumflex accents.&lt;/p&gt;
+
+&lt;p&gt;To fix the issue, I simply commented, in the latexdiff script, the lines that switched between the \^ regular expression and the SUPERSCRIPT custom command.&lt;/p&gt;
+
+&lt;p&gt;The following preprocessing instructions were commented:&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;c&quot;&gt;# Convert ^n into \SUPERSCRIPTNB{n} and ^{nnn} into \SUPERSCRIPT{nn}&lt;/span&gt;
+s/&lt;span class=&quot;se&quot;&gt;\^&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;([&lt;/span&gt;^&lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\\&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;|&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\\\w&lt;/span&gt;+&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;/&lt;span class=&quot;se&quot;&gt;\\&lt;/span&gt;SUPERSCRIPTNB&lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$1&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;/g &lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+s/&lt;span class=&quot;se&quot;&gt;\^&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;{(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$pat4&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)}&lt;/span&gt;/&lt;span class=&quot;se&quot;&gt;\\&lt;/span&gt;SUPERSCRIPT&lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$1&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;/g &lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;And those postprocessing instructions were commented too:&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;c&quot;&gt;# Convert \SUPERSCRIPTNB{n} into ^n and \SUPERSCRIPT{nn} into ^{nnn}&lt;/span&gt;
+s/&lt;span class=&quot;se&quot;&gt;\\&lt;/span&gt;SUPERSCRIPTNB&lt;span class=&quot;o&quot;&gt;{(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$pat0&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)}&lt;/span&gt;/^&lt;span class=&quot;nv&quot;&gt;$1&lt;/span&gt;/g &lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+s/&lt;span class=&quot;se&quot;&gt;\\&lt;/span&gt;SUPERSCRIPT&lt;span class=&quot;o&quot;&gt;{(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$pat4&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)}&lt;/span&gt;/^&lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$1&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;/g &lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Thus if you want to generate the diff between two latex documents containing circumflex accents, you can still use latexdiff. Just comment the conflictual instructions.&lt;/p&gt;
+
+    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/latex/latexdiff/differences-between-two-versions-of/&quot;&gt;Differences between two versions of the same latex document&lt;/a&gt; was originally published by Jihed Amine Maaref at &lt;a href=&quot;http://localhost:4000&quot;&gt;Code is poetry&lt;/a&gt; on April 15, 2010.&lt;/p&gt;
+  </content>
+</entry>
+
+
+  
+
+<entry>
+  <title type="html"><![CDATA[Specialization in object oriented languages]]></title>
+  <link rel="alternate" type="text/html" href="http://localhost:4000/java/design/oo/specialization-in-object-oriented/" />
+  <id>http://localhost:4000/java/design/oo/specialization-in-object-oriented</id>
+  <published>2010-04-15T21:40:00-04:00</published>
+  <updated>2010-04-15T21:40:00-04:00</updated>
+  <author>
+    <name>Jihed Amine Maaref</name>
+    <uri>http://localhost:4000</uri>
+    <email>jihedamine@gmail.com</email>
+  </author>
+  <content type="html">
+    &lt;p&gt;In this post, we will briefly introduce Object Oriented fundamental concepts and talk about specialization in O.O. paradigm.&lt;/p&gt;
+
+&lt;h2 id=&quot;fundamental-oo-concepts&quot;&gt;Fundamental O.O. Concepts&lt;/h2&gt;
+&lt;p&gt;Object Oriented programming had a lot of success in the last decades mainly because it is equivalent to the way humans think. In fact, people categorize and classify entities, associate a state to an entity and distinguish some operations this entity is able to do. Moreover, O.O. paradigm is adequate with software engineering requirements. It is evolutionary, reusable, expressive, easily maintainable…  The main concept in O.O. paradigm is the &lt;em&gt;object&lt;/em&gt;.
+It is a capsule that wraps &lt;em&gt;properties&lt;/em&gt; and has an identity.
+Properties can be &lt;em&gt;attributes&lt;/em&gt;, &lt;em&gt;methods&lt;/em&gt; or other things (virtual types…).
+A &lt;em&gt;class&lt;/em&gt; stores and describes properties for its &lt;em&gt;instances&lt;/em&gt;.
+It declares the attributes and implements the methods. The definition of a class has to maximize its reusability and extensibility.
+Classes are organized according to a &lt;em&gt;hierarchy&lt;/em&gt;.
+Hierarchy introduces the notions of specialization / generalization and super / sub classes.
+Therefore, classes have a modelizing purpose. They can also be used as naming spaces (e. g. System and Math classes in Java) and as units of compilation (a class definition is mapped to a compiled unit).&lt;/p&gt;
+
+&lt;p&gt;&lt;u&gt;Message sending:&lt;/u&gt; is the way to invoke an object’s property. The object is an instance of a class that declares the invoked attribute or method, or inherits it from one of its super classes.
+Let A be a class and foo() a method declared in class A.&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-java&quot; data-lang=&quot;java&quot;&gt;&lt;span class=&quot;n&quot;&gt;A&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;A&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;();&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;foo&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;();&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;A is called the &lt;em&gt;fonreceiver&lt;/em&gt;, foo is called the &lt;em&gt;message&lt;/em&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;specialization&quot;&gt;Specialization&lt;/h2&gt;
+&lt;p&gt;Specialization relationship establishes the concepts of super classes and sub classes. A class can &lt;em&gt;inherit&lt;/em&gt; the properties of the superclass it &lt;em&gt;specializes&lt;/em&gt; and &lt;em&gt;extend&lt;/em&gt; it by redefining the inherited properties and introducing new ones.&lt;/p&gt;
+
+&lt;p&gt;&lt;u&gt;Extensions:&lt;/u&gt; A class extension is the set of its instances.
+Instances of a class are instances of all of its super classes. Therefore, having C’ a subclass of class C, the extension of C’ is included in the extension of C. Extensions are said to be &lt;em&gt;covariant&lt;/em&gt; (they vary in the same way as the specialization relationship does).&lt;/p&gt;
+
+&lt;p&gt;&lt;u&gt;Intensions:&lt;/u&gt; A class intension is the set of its properties. A subclass inherits all the properties of its super classes and eventually adds its own properties. Therefore, having C’ a subclass of class C, the intension of C is included in the intension of C’. Intensions are said to be &lt;em&gt;contravariant&lt;/em&gt; (they vary in the opposite way as the specialization relationship)&lt;/p&gt;
+
+&lt;p&gt;&lt;u&gt;Local property:&lt;/u&gt; is a property (attribute or method) that is &lt;em&gt;defined&lt;/em&gt; in a class and that belongs to a global property. A local property can redefine a local property inherited from a super class.&lt;/p&gt;
+
+&lt;p&gt;&lt;u&gt;Global property:&lt;/u&gt; is &lt;em&gt;introduced&lt;/em&gt; in a class and regroups local properties.&lt;/p&gt;
+
+&lt;p&gt;&lt;u&gt;Late binding:&lt;/u&gt; The behaviour of a method is determined by the dynamic type of the receiver at execution time.  In statically typed languages, the global property that will be used in this call is determined by the static type of the receiver a and by the message foo (its name, signature… depending on the language). In dynamically typed languages, the receiver isn’t considered when selecting the global property. The local property corresponding to the selected global property will be the most specific one accordingly to the receiver’s dynamic type.  If the global property is ambiguous (i.e. a class inherits from two classes that use two distinct global properties that have the same signature), a global property conflict happens.  If the global property designated by the message invocation isn’t ambiguous, but more than one local property belonging to the selected global property are at the highest level of specificity accordingly to the receiver’s dynamic type, a local property conflict happens.  Let A be a class, B be a subclass of A and foo() a method declared in class A and redefined in class B.&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-java&quot; data-lang=&quot;java&quot;&gt;&lt;span class=&quot;n&quot;&gt;A&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;B&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;();&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;foo&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;();&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Here, method foo() that was redefined in class B will be invoked because the dynamic type of the receiver is B. Dynamic type is the actual type of the object (&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-java&quot; data-lang=&quot;java&quot;&gt;&lt;span class=&quot;n&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;B&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;();&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;) , whereas its static type is the type specified when declaring the object (&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-java&quot; data-lang=&quot;java&quot;&gt;&lt;span class=&quot;n&quot;&gt;A&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;).
+In this example, method foo is a global property introduced in class A. Class A defines a local property foo, belonging to the global property foo it introduced. Class B redefines the local property foo inherited from A. The call&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-java&quot; data-lang=&quot;java&quot;&gt;&lt;span class=&quot;n&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;foo&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;();&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;designates a global property foo. As both local properties defined in classes A and B belong to this global property foo, the most specific one according to the dynamic type of the receiver of the message will be chosen. In this case, instance a’s dynamic type is B, so the local property foo defined in class B will be invoked.&lt;/p&gt;
+
+&lt;h2 id=&quot;references&quot;&gt;References&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;[Ducournaud 2008] R. Ducournaud “Programmation par objets, les concepts fondamentaux”, UFR des sciences, Université Montpellier II, 2008.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;[Privat 2006] J. Privat “De l’expressivité à l’efficacité. Une approche modulaire des langages à objet”, Université Montpellier II, 2006.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/java/design/oo/specialization-in-object-oriented/&quot;&gt;Specialization in object oriented languages&lt;/a&gt; was originally published by Jihed Amine Maaref at &lt;a href=&quot;http://localhost:4000&quot;&gt;Code is poetry&lt;/a&gt; on April 15, 2010.&lt;/p&gt;
+  </content>
+</entry>
+
+
+  
+
+<entry>
+  <title type="html"><![CDATA[Enabling high resolution console in Ubuntu]]></title>
+  <link rel="alternate" type="text/html" href="http://localhost:4000/usplash/linux/enabling-high-resolution-console-in/" />
+  <id>http://localhost:4000/usplash/linux/enabling-high-resolution-console-in</id>
+  <published>2008-02-25T19:32:00-05:00</published>
+  <updated>2008-02-25T19:32:00-05:00</updated>
+  <author>
+    <name>Jihed Amine Maaref</name>
+    <uri>http://localhost:4000</uri>
+    <email>jihedamine@gmail.com</email>
+  </author>
+  <content type="html">
+    &lt;p&gt;I personally don’t like the usplash displayed at bootup/shutdown in Ubuntu, I rather prefer seeing console messages.&lt;/p&gt;
+
+&lt;p&gt;However, the low resolution of the console make the displayed fonts too big which is a little bit ugly.&lt;/p&gt;
+
+&lt;p&gt;To enable high resolution console, open a terminal and type :&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;sudo gedit /etc/modprobe.d/blacklist-framebuffer&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;then comment the line :&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;blacklist vesafb&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Save the modifications and close the text editor.&lt;/p&gt;
+
+&lt;p&gt;Now, still in a gnome terminal, type :&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;sudo gedit /etc/initramfs-tools/modules&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;At the end of the file, add these two separate lines :&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;fbcon
+vesafb&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Close the edited file and type :&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;sudo update-initramfs -u&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Finally, open your menu.lst file :&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;sudo gedit /boot/grub/menu.lst&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;In the kernel line for ubuntu delete ‘splash’ (so you no longer have the usplash displayed) and add vga=791 (to have a 1024*768 resolution)&lt;/p&gt;
+
+&lt;p&gt;That’s it ! One last tip, to have more messages displayed you can change ‘quiet’ to ‘services’ or to ‘verbose’ in the kernel line.&lt;/p&gt;
+
+    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/usplash/linux/enabling-high-resolution-console-in/&quot;&gt;Enabling high resolution console in Ubuntu&lt;/a&gt; was originally published by Jihed Amine Maaref at &lt;a href=&quot;http://localhost:4000&quot;&gt;Code is poetry&lt;/a&gt; on February 25, 2008.&lt;/p&gt;
+  </content>
+</entry>
+
+
+  
+
+<entry>
+  <title type="html"><![CDATA[Automatically changing wallpaper relatively to daytime in Ubuntu]]></title>
+  <link rel="alternate" type="text/html" href="http://localhost:4000/bash/linux/cron/automatically-changing-wallpaper/" />
+  <id>http://localhost:4000/bash/linux/cron/automatically-changing-wallpaper</id>
+  <published>2008-02-15T15:24:00-05:00</published>
+  <updated>2008-02-15T15:24:00-05:00</updated>
+  <author>
+    <name>Jihed Amine Maaref</name>
+    <uri>http://localhost:4000</uri>
+    <email>jihedamine@gmail.com</email>
+  </author>
+  <content type="html">
+    &lt;p&gt;Fedora 8 introduced a nice feature which is automatically changing wallpaper relatively to daytime.&lt;/p&gt;
+
+&lt;p&gt;Here’s how to have this cool feature in Ubuntu (and any other linux distribution)  Select four wallpapers, one to be displayed at sunrise, the second during the day, third at sunset and the last at night. Then, in a terminal, create a bash script as follows :&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;gedit .change.sh&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;You’ll get the newly created .change.sh file opened in a text editor. Copy the following text in the file (Change the PATH-TO-**-PICTURE with the appropriate path) :&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;c&quot;&gt;#!/bin/bash&lt;/span&gt;
+&lt;span class=&quot;nv&quot;&gt;HOUR&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;$(&lt;/span&gt;date +%H&lt;span class=&quot;k&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;case&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;$HOUR&amp;quot;&lt;/span&gt; in
+04&lt;span class=&quot;p&quot;&gt;|&lt;/span&gt;05&lt;span class=&quot;p&quot;&gt;|&lt;/span&gt;06&lt;span class=&quot;p&quot;&gt;|&lt;/span&gt;07&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+gconftool -t string -s /desktop/gnome/background/picture_filename PATH-TO-SUNRISE-PICTURE
+&lt;span class=&quot;p&quot;&gt;;;&lt;/span&gt;
+08&lt;span class=&quot;p&quot;&gt;|&lt;/span&gt;09&lt;span class=&quot;p&quot;&gt;|&lt;/span&gt;10&lt;span class=&quot;p&quot;&gt;|&lt;/span&gt;11&lt;span class=&quot;p&quot;&gt;|&lt;/span&gt;12&lt;span class=&quot;p&quot;&gt;|&lt;/span&gt;13&lt;span class=&quot;p&quot;&gt;|&lt;/span&gt;14&lt;span class=&quot;p&quot;&gt;|&lt;/span&gt;15&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+gconftool -t string -s /desktop/gnome/background/picture_filename PATH-TO-DAY-PICTURE
+&lt;span class=&quot;p&quot;&gt;;;&lt;/span&gt;
+16&lt;span class=&quot;p&quot;&gt;|&lt;/span&gt;17&lt;span class=&quot;p&quot;&gt;|&lt;/span&gt;18&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+gconftool -t string -s /desktop/gnome/background/picture_filename PATH-TO-SUNSET-PICTURE
+&lt;span class=&quot;p&quot;&gt;;;&lt;/span&gt;
+*&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+gconftool -t string -s /desktop/gnome/background/picture_filename PATH-TO-NIGHT-PICTURE
+&lt;span class=&quot;p&quot;&gt;;;&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;esac&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;As you can tell, this script sets the appropriate picture depending on the system’s current hour. Now we’ll create a cron job, which is a way to automatically run tasks.&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;gedit .change.cron&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;This will open the text editor to edit our cron job. Copy the following in the text editor (Replace YOUR-HOME-FOLDER by your home folder’s absolute path):&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;* 4,8,16,19 * * * YOUR-HOME-FOLDER/.change.sh&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;As you see, the cron task will lauch our previously created script at 4am, 8am, 4pm and 7pm to set the adequate wallpaper. (Of course, you can change the hours at your convenience).&lt;/p&gt;
+
+&lt;p&gt;Now, let’s add these tasks to our gnome session so that they are automatically launched every time we login.&lt;/p&gt;
+
+&lt;p&gt;Open the System&amp;gt;Preferences&amp;gt;Sessions menu:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Click the Add Button&lt;/li&gt;
+  &lt;li&gt;Name: Changing Wallpaper Cron&lt;/li&gt;
+  &lt;li&gt;Command: crontab PATH-TO-YOUR-HOME-FOLDER/.change.cron&lt;/li&gt;
+  &lt;li&gt;Click Ok&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Now the job of automatically changing wallpaper is set as an automated job every time we login.&lt;/p&gt;
+
+&lt;p&gt;We also have to add the script at session startup so that the correct wallpaper is initialized when we login. (This means, that if you login at e.g. 5:30pm, you’ll have the right wallpaper for that time). To do so:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Click again the Add Button&lt;/li&gt;
+  &lt;li&gt;Name: Initializing Wallpaper&lt;/li&gt;
+  &lt;li&gt;Command: PATH-TO-YOUR-HOME-FOLDER/.change.sh&lt;/li&gt;
+  &lt;li&gt;Click Ok&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Here you are ! Your desktop wallpaper is living and reflecting the daytime! :P&lt;/p&gt;
+
+&lt;p&gt;Feel free to send your comments if you have any issue.&lt;/p&gt;
+
+    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/bash/linux/cron/automatically-changing-wallpaper/&quot;&gt;Automatically changing wallpaper relatively to daytime in Ubuntu&lt;/a&gt; was originally published by Jihed Amine Maaref at &lt;a href=&quot;http://localhost:4000&quot;&gt;Code is poetry&lt;/a&gt; on February 15, 2008.&lt;/p&gt;
+  </content>
+</entry>
+
+
+  
+
+<entry>
+  <title type="html"><![CDATA[Why I tend to prefer Netbeans over Eclipse]]></title>
+  <link rel="alternate" type="text/html" href="http://localhost:4000/java/eclipse/netbeans/why-i-tend-to-prefer-netbeans-over/" />
+  <id>http://localhost:4000/java/eclipse/netbeans/why-i-tend-to-prefer-netbeans-over</id>
+  <published>2007-11-16T13:15:00-05:00</published>
+  <updated>2007-11-16T13:15:00-05:00</updated>
+  <author>
+    <name>Jihed Amine Maaref</name>
+    <uri>http://localhost:4000</uri>
+    <email>jihedamine@gmail.com</email>
+  </author>
+  <content type="html">
+    &lt;p&gt;Even though Eclipse is surely the dominant Java IDE in the market, there are some reasons that make me prefer Netbeans over it :&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Netbeans is a coherent IDE : you don’t have to check the dependencies for a plugin and the right version for every dependency to get it work (check GMF version, WTP version etc..). Plugins in Netbeans are supervised by the development team and integrate easily and very well in the current Netbeans version.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Netbeans works out of the box : The functionalities provided by Netbeans are available from the plugins manager. You just have to install/activate them and begin working. In Eclipse, there is the update center, but it is tougher to get a stabilized IDE with a set of complementary tools. Moreover, many valuable Eclipse plugins aren’t in the Eclipse update site, but belong to independent enterprises.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Netbeans is free : Well, I know eclipse is free too, but a lot of the valuable plugins are commercial (UML, GUI design..). Even if free components in Netbeans don’t offer all the functionalities the commercial plugins in Eclipse do, I prefer having an IDE dealing mainly with free plugins.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Netbeans is actively supported : Sun makes a lot of efforts to market Netbeans, so we have all kinds of tutorials, videos etc (Netbeans TV, Netbeans Magazine, Netbeans tutorials..) that are made by Sun. Eclipse tutorials and screencasts are numerous but they aren’t supported by IBM so they are less coherent and less ‘Enterprise quality’ documents.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Netbeans is made by Sun, the Java inventor : Netbeans has recently been on the edge concerning innovative Java technologies (JSF, Java FX..). It is easily understandable as Sun is creating those technologies.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Netbeans integrates some nice productivity tools : Eclipse has better refactoring, but is beaten in other aspects by Netbeans who integrates GUI Builder Matisse, advanced JSF Web design, JUnit testing, Ant compiling and a Profiler in a user friendly manner.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;I know the debate is very heated about this topic. You can leave your opinions and comments either you prefer Eclipse, Netbeans or any other IDE.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Edit in 1st March 2008 : After three months of heavily using Netbeans and then three others with Eclipse, I completely changed my mind. I currently consider Eclipse to be way more productive and feature-rich than Netbeans. Maybe I will write a new post to explain in detail what makes Eclipse superior to Netbeans in my opinion.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/java/eclipse/netbeans/why-i-tend-to-prefer-netbeans-over/&quot;&gt;Why I tend to prefer Netbeans over Eclipse&lt;/a&gt; was originally published by Jihed Amine Maaref at &lt;a href=&quot;http://localhost:4000&quot;&gt;Code is poetry&lt;/a&gt; on November 16, 2007.&lt;/p&gt;
+  </content>
+</entry>
+
+
+  
+
+<entry>
+  <title type="html"><![CDATA[Hello world!]]></title>
+  <link rel="alternate" type="text/html" href="http://localhost:4000/hello-world/" />
+  <id>http://localhost:4000/hello-world</id>
+  <published>2007-10-22T17:16:00-04:00</published>
+  <updated>2007-10-22T17:16:00-04:00</updated>
+  <author>
+    <name>Jihed Amine Maaref</name>
+    <uri>http://localhost:4000</uri>
+    <email>jihedamine@gmail.com</email>
+  </author>
+  <content type="html">
+    &lt;p&gt;Welcome to my blog!&lt;/p&gt;
+
+&lt;p&gt;I’m a computer engineering student and this is my first post.&lt;/p&gt;
+
+&lt;p&gt;I will be talking about computing technology and specially Linux and Java EE stuff.&lt;/p&gt;
+
+&lt;p&gt;Hope you will like it!&lt;/p&gt;
+
+    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/hello-world/&quot;&gt;Hello world!&lt;/a&gt; was originally published by Jihed Amine Maaref at &lt;a href=&quot;http://localhost:4000&quot;&gt;Code is poetry&lt;/a&gt; on October 22, 2007.&lt;/p&gt;
+  </content>
+</entry>
+
+</feed>
