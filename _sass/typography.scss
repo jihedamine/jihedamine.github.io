@@ -138,7 +138,7 @@ p {
 	// sibling indentation
 	@if $paragraph-indent == true {
     		& + p {
-			margin-top: -($indent-var);
+		//	margin-top: -($indent-var);
 		}
 	}
 }
