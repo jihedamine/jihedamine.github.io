@@ -16,7 +16,7 @@ h2 {
 	@include font-size(28);
 }
 h3 {
-	@include fontp-size(24);
+	@include font-size(24);
 }
 h4 {
 	@include font-size(18);
@@ -136,7 +136,7 @@ p {
 	// sibling indentation
   @if $paragraph-indent == true {
     & + p {
-			text-indent: $indent-var;
+		//	text-indent: $indent-var;
 			margin-top: -($indent-var);
 		}
 	}
