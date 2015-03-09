@@ -121,6 +121,7 @@ blockquote {
 
 .footnotes {
 	ol, li, p {
+		text-indent: 0;
 		margin-bottom: 0;
 		@include font-rem(14);
 	}
@@ -132,11 +133,11 @@ blockquote {
 
 p {
 	margin: 0 0 $indent-var;
+	text-indent: $indent-var;
 
 	// sibling indentation
 	@if $paragraph-indent == true {
     		& + p {
-    			text-indent: $indent-var;
 			margin-top: -($indent-var);
 		}
 	}
