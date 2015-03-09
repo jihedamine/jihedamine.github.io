@@ -7,8 +7,7 @@ date: "2008-02-25 19:32:00"
 updated: "2012-12-17 20:00:27"
 categories: [usplash, Linux]
 ---
-I personally don't like the usplash displayed at bootup/shutdown in Ubuntu, I rather prefer seeing console messages.
-
+I personally don't like the usplash displayed at bootup/shutdown in Ubuntu, I rather prefer seeing console messages.  
 However, the low resolution of the console make the displayed fonts too big which is a little bit ugly.
 
 To enable high resolution console, open a terminal and type :
