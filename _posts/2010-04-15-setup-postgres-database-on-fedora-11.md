@@ -26,9 +26,7 @@ service postgresql start
 
 {% highlight bash %}
 vi /var/lib/pgsql/data/pg_hba.conf
-{% endhighlight %}
-
-set authentication method to trust instead of ident sameuser for local socket, IPv4 and IPv6 connections.
+{% endhighlight %}set authentication method to trust instead of ident sameuser for local socket, IPv4 and IPv6 connections.
 
 {% highlight bash %}
 # TYPE  DATABASE    USER        CIDR-ADDRESS          METHOD
