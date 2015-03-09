@@ -8,7 +8,7 @@
 
 $doc-font-size: 16;
 $doc-line-height: 26;
-$paragraph-indent: false !default;
+$paragraph-indent: true !default;
 $base-font: 'PT Serif', serif;
 $heading-font: 'PT Sans Narrow', sans-serif;
 $code-font: Monaco, "Courier New", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", monospace;
@@ -18,7 +18,7 @@ $alt-font: $base-font;
    Colors
    ========================================================================== */
 
-$bodycolor      : #fff;
+$bodycolor      : #000;
 $body-color     : $bodycolor;
 $textcolor      : #333332;
 $text-color     : $textcolor;
