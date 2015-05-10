@@ -1,5 +1,6 @@
 ---
-sitemap: false
+# this ensures Jekyll reads the file to be transformed into CSS later
+# only Main files contain this front matter, not partials.
 ---
 
 /*
@@ -10,7 +11,17 @@ sitemap: false
  *  Twitter: http://twitter.com/mmistakes
  *
 */
+article.post, #index{
+  width:65% !important;
+  }
 
+  .site-name, .top-navigation li {
+    font-size: larger !important;
+  }
+
+  div.article-author-side {
+    margin-right: 5% !important;
+  }
 // Partials
 @import "variables";
 @import "grid";
@@ -19,7 +30,6 @@ sitemap: false
 @import "site";
 @import "typography";
 @import "pygments";
-@import "coderay";
 @import "elements";
 @import "forms";
 @import "page";

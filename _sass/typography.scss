@@ -57,7 +57,7 @@ a {
 
 figcaption {
 	padding-top: 10px;
-	@include font(14);
+	@include font(22);
 	line-height: 1.3;
 	color: lighten($text-color, 10);
 }
@@ -133,6 +133,7 @@ blockquote {
 
 p {
 	margin: 0 0 $indent-var;
+    @include font(20);
 	// sibling indentation
 //  @if $paragraph-indent == true {
   //  & + p {
