@@ -69,7 +69,6 @@ body {
 		list-style-type: none;
 		border-bottom: 1px solid lighten($black,80);
 		border-bottom: 1px solid fade($black,10);
-		@include font-rem(16);
 		&:last-child {
 			border-bottom: 0 solid transparent;
 		}
@@ -517,49 +516,6 @@ $button-size: 1.5rem;
 	}
 }
 
-/* Image grid - not used */
-.image-grid {
-	@include clearfix;
-	list-style: none;
-	margin: 0 0 1em;
-	padding: 0;
-	li {
-		@include grid(12,6);
-		@media #{$micro} {
-			width: 33.333333%;
-		}
-		@media #{$small} {
-			width: 25%;
-		}
-		@media #{$medium} {
-			width: 20%;
-		}
-		@media #{$large} {
-			width: 16.666666666%;
-		}
-	}
-}
-
-/* Recent grid - not used */
-.recent-grid {
-	@include clearfix;
-	list-style: none;
-	margin: 1em 0;
-	li {
-		display: inline;
-		a { 
-			border-bottom: 0 solid transparent;
-			&:hover {
-				border-bottom: 0 solid transparent;
-			}
-		}
-	}
-	img {
-		width: 19%;
-		margin-bottom: 1%;
-	}
-}
-
 /* Social sharing links */
 /* Social media brand buttons */
 .social-share {
@@ -726,6 +682,4 @@ $button-size: 1.5rem;
 	border-color: lighten($black,50);
 	@include rounded(3px);
 }
-#goog-wm-sb {
-	@extend .btn;
-}
+
