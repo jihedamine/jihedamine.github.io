@@ -26,5 +26,7 @@ article.post, #index{
 @import "variables";
 @import "grid";
 @import "mixins";
-//@import "normalize";
-//@import "typography";
+@import "normalize";
+@import "typography";
+@import "page";
+@import "pygments";
