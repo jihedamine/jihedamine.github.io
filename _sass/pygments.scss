@@ -5,6 +5,7 @@
 .highlight {
 	background-color: #efefef;
 	font-family: $code-font;
+	@include font(12);
 	color: #333332;
 	margin-bottom: 1.5em;
 	@include rounded(4px);
@@ -12,7 +13,6 @@
 		position: relative;
 		margin: 0;
 		padding: 1em;
-	  @include font(17);
 	}
 	.lineno { padding-right: 24px; color: lighten(#333332,50);}
 	.hll { background-color: #ffffcc }

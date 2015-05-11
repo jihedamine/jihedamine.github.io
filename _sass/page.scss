@@ -69,6 +69,7 @@ body {
 		list-style-type: none;
 		border-bottom: 1px solid lighten($black,80);
 		border-bottom: 1px solid fade($black,10);
+		@include font-rem(16);
 		&:last-child {
 			border-bottom: 0 solid transparent;
 		}
@@ -267,14 +268,14 @@ $button-size: 1.5rem;
 	article {
 		h2 {
 			margin-bottom: 4px;
-			@include font-rem(24);
+			@include font-rem(20);
 			&.link-post {
 				margin-bottom: 0px + $doc-line-height;
 				margin-bottom: 0rem + ($doc-line-height / $doc-font-size);
 			}
 		}
 		p {
-			@include font-rem(19);
+			@include font-rem(14);
 			text-indent: 0;
 		}
 	}
@@ -339,9 +340,9 @@ $button-size: 1.5rem;
 		margin-bottom: 0;
 	}
 	p {
+		font-size: 80%;
 		font-style: italic;
 		text-indent: 0;
-	  @include font-rem(18)
 	}
 	a, a:hover {
 		border-bottom: 0 solid transparent;
@@ -352,7 +353,7 @@ $button-size: 1.5rem;
 .author-social {
   display: block;
   margin-bottom: 5px;
-  @include font-rem(18);
+  @include font-rem(14);
   color: $black;
   &:visited {
     color: $black;
@@ -513,6 +514,49 @@ $button-size: 1.5rem;
 	overflow: hidden;
 	&.js-hidden {
 		max-height: 0;
+	}
+}
+
+/* Image grid - not used */
+.image-grid {
+	@include clearfix;
+	list-style: none;
+	margin: 0 0 1em;
+	padding: 0;
+	li {
+		@include grid(12,6);
+		@media #{$micro} {
+			width: 33.333333%;
+		}
+		@media #{$small} {
+			width: 25%;
+		}
+		@media #{$medium} {
+			width: 20%;
+		}
+		@media #{$large} {
+			width: 16.666666666%;
+		}
+	}
+}
+
+/* Recent grid - not used */
+.recent-grid {
+	@include clearfix;
+	list-style: none;
+	margin: 1em 0;
+	li {
+		display: inline;
+		a { 
+			border-bottom: 0 solid transparent;
+			&:hover {
+				border-bottom: 0 solid transparent;
+			}
+		}
+	}
+	img {
+		width: 19%;
+		margin-bottom: 1%;
 	}
 }
 
@@ -682,4 +726,6 @@ $button-size: 1.5rem;
 	border-color: lighten($black,50);
 	@include rounded(3px);
 }
-
+#goog-wm-sb {
+	@extend .btn;
+}
