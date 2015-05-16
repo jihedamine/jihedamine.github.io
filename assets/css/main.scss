@@ -1,32 +1,13 @@
 ---
-# this ensures Jekyll reads the file to be transformed into CSS later
-# only Main files contain this front matter, not partials.
+# Let's add a comment to make this file sass-y.
+# Change this file for any custom CSS.
 ---
 
-/*
- *
- *  Minimal Mistakes
- *
- *  Designer: Michael Rose
- *  Twitter: http://twitter.com/mmistakes
- *
-*/
-article.post, #index{
-  width:65% !important;
-  }
+/* We need to add display:inline in order to align the '>>' of the 'read more' link */
+.post-excerpt p {
+	display:inline;
+}
 
-  .site-name, .top-navigation li {
-    font-size: larger !important;
-  }
-
-  div.article-author-side {
-    margin-right: 5% !important;
-  }
-// Partials
-@import "variables";
-@import "grid";
-@import "mixins";
-@import "normalize";
-@import "typography";
-@import "page";
-@import "pygments";
+// Import partials from `sass_dir` (defaults to `_sass`)
+@import	"syntax";
+@import "font-awesome/font-awesome";

@@ -1,62 +1,14 @@
-# Site wide configuration
+name: Code is poetry
+meta_description: "Code is poetry"
 
-title:            Code is poetry
-locale:           en_US
-url:              https://jihedamine.github.io
-#url:              http://localhost:4000
-
-
-# Jekyll configuration
-
-permalink:   /:categories/:title/
-markdown:    kramdown
+markdown: redcarpet
 highlighter: pygments
-sass:
-  sass_dir: _sass
-  style: compressed
-gems:
-  - jekyll-sitemap
-
-kramdown:
-  auto_ids: true
-  footnote_nr: 1
-  entity_output: as_char
-  toc_levels: 1..6
-  use_coderay: false
-
-
-# Site owner
-owner:
-  name: Jihed Amine Maaref
-  avatar: profile.png
-  bio: "Java Analyst/Developer"
-  email: jihedamine@gmail.com
-  github: jihedamine
-  linkedin: jihedamine
-  disqus-shortname: jihedamine
-  cv: https://drive.google.com/file/d/0BzXYgxNwhkq3SFFxU21pTzRPakE/view?usp=sharing
-  twitter: #username
-  facebook: #username
-  google:
-    plus: #username
-    analytics: UA-60516726-1
-    verify:
-    ad-client: 
-    ad-slot: 
-  bing-verify: 
-  stackoverflow: 338784
-  xing: #username
-  instagram: #username
-  lastfm: #username
-  tumblr: #username
-  pinterest: #username
-  foursquare: #username
-  steam: #username
-  dribbble: #username
-  youtube: #username
-  soundcloud: #username
-  weibo: #username
-  flickr: #username
-
-include: [".htaccess"]
-exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "Gemfile", "Gemfile.lock", "LICENSE", "README.md"]
+paginate: 15
+baseurl: /
+domain_name: 'http://jihedamine.github.io'
+google_analytics: 'UA-60516726-1'
+disqus-shortname: jihedamine
+# Details for the RSS feed generator
+url:            'http://jihedamine.github.io'
+author:         'Jihed Amine Maaref'
+cover: 'https://jihedamine.github.io/images/painting.png'
