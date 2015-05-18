@@ -23,76 +23,187 @@ article, aside, details,
 figcaption, figure,
 footer, header,
 main, nav, section,
-summary { display: block; }
-audio, canvas, video { display: inline-block; }
-audio:not([controls]) { display: none; height: 0; }
-[hidden], template { display: none; }
+summary {
+    display: block;
+}
+
+audio, canvas, video {
+    display: inline-block;
+}
+
+audio:not([controls]) {
+    display: none;
+    height: 0;
+}
+
+[hidden], template {
+    display: none;
+}
+
 html {
-   font-family: sans-serif;
-   -ms-text-size-adjust: 100%;
-   -webkit-text-size-adjust: 100%;
+    font-family: sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
 }
-body { margin: 0; }
-a { background: transparent; }
-a:focus { outline: thin dotted; }
-a:active, a:hover { outline: 0; }
-h1 { font-size: 2em; margin: 0.67em 0; }
-abbr[title] { border-bottom: 1px dotted; }
-b, strong { font-weight: 700; }
-dfn { font-style: italic; }
+
+body {
+    margin: 0;
+}
+
+a {
+    background: transparent;
+}
+
+a:focus {
+    outline: thin dotted;
+}
+
+a:active, a:hover {
+    outline: 0;
+}
+
+h1 {
+    font-size: 2em;
+    margin: 0.67em 0;
+}
+
+abbr[title] {
+    border-bottom: 1px dotted;
+}
+
+b, strong {
+    font-weight: 700;
+}
+
+dfn {
+    font-style: italic;
+}
+
 hr {
-   -moz-box-sizing: content-box;
-   box-sizing: content-box;
-   height: 0;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    height: 0;
 }
-mark { background: #FF0; color: #000; }
+
+mark {
+    background: #FF0;
+    color: #000;
+}
+
 code, kbd, pre,
-samp { font-family: monospace, serif; font-size: 1em; }
-pre { white-space: pre-wrap; }
-q { quotes: "\201C" "\201D" "\2018" "\2019"; }
-small { font-size: 80%; }
+samp {
+    font-family: monospace, serif;
+    font-size: 1em;
+}
+
+pre {
+    white-space: pre-wrap;
+}
+
+q {
+    quotes: "\201C" "\201D" "\2018" "\2019";
+}
+
+small {
+    font-size: 80%;
+}
+
 sub, sup {
-   font-size: 75%;
-   line-height: 0;
-   position: relative;
-   vertical-align: baseline;
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline;
 }
-sup { top: -0.5em; }
-sub { bottom: -0.25em; }
-img { border: 0; }
-svg:not(:root) { overflow: hidden; }
-figure { margin: 0; }
+
+sup {
+    top: -0.5em;
+}
+
+sub {
+    bottom: -0.25em;
+}
+
+img {
+    border: 0;
+}
+
+svg:not(:root) {
+    overflow: hidden;
+}
+
+figure {
+    margin: 0;
+}
+
 fieldset {
-   border: 1px solid #c0c0c0;
-   margin: 0 2px;
-   padding: 0.35em 0.625em 0.75em;
+    border: 1px solid #c0c0c0;
+    margin: 0 2px;
+    padding: 0.35em 0.625em 0.75em;
 }
-legend { border: 0; padding: 0; }
+
+legend {
+    border: 0;
+    padding: 0;
+}
+
 button, input, select,
-textarea { font-family: inherit; font-size: 100%; margin: 0; }
-button, input { line-height: normal; }
-button, select { text-transform: none; }
+textarea {
+    font-family: inherit;
+    font-size: 100%;
+    margin: 0;
+}
+
+button, input {
+    line-height: normal;
+}
+
+button, select {
+    text-transform: none;
+}
+
 button, html input[type="button"],
 input[type="reset"], input[type="submit"] {
-   -webkit-appearance: button;
-   cursor: pointer;
+    -webkit-appearance: button;
+    cursor: pointer;
 }
-button[disabled], html input[disabled] { cursor: default; }
-input[type="checkbox"],
-input[type="radio"] { box-sizing: border-box; padding: 0; }
-input[type="search"] {
-   -webkit-appearance: textfield;
-   -moz-box-sizing: content-box;
-   -webkit-box-sizing: content-box;
-   box-sizing: content-box;
-}
-input[type="search"]::-webkit-search-cancel-button,
-input[type="search"]::-webkit-search-decoration { -webkit-appearance: none; }
-button::-moz-focus-inner,
-input::-moz-focus-inner { border: 0; padding: 0; }
-textarea { overflow: auto; vertical-align: top; }
-table { border-collapse: collapse; border-spacing: 0; }
 
+button[disabled], html input[disabled] {
+    cursor: default;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+    box-sizing: border-box;
+    padding: 0;
+}
+
+input[type="search"] {
+    -webkit-appearance: textfield;
+    -moz-box-sizing: content-box;
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box;
+}
+
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+    -webkit-appearance: none;
+}
+
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+    border: 0;
+    padding: 0;
+}
+
+textarea {
+    overflow: auto;
+    vertical-align: top;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
 
 /* ==========================================================================
    2. General - Setting up some base styles
@@ -230,13 +341,17 @@ blockquote small {
     color: #CCC;
 }
 
-blockquote small:before { content: "\2014 \00A0"; }
+blockquote small:before {
+    content: "\2014 \00A0";
+}
 
 blockquote cite {
     font-weight: 700;
 }
 
-blockquote cite a { font-weight: normal; }
+blockquote cite a {
+    font-weight: normal;
+}
 
 mark {
     background-color: #FFC336;
@@ -287,9 +402,8 @@ kbd {
     font-weight: 700;
     background: #F4F4F4;
     border-radius: 4px;
-    box-shadow:
-        0 1px 0 rgba(0, 0, 0, 0.2),
-        0 1px 0 0 #fff inset;
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.2),
+    0 1px 0 0 #fff inset;
 }
 
 table {
@@ -310,7 +424,9 @@ table td {
     border-top: #EFEFEF 1px solid;
 }
 
-table th { color: #000; }
+table th {
+    color: #000;
+}
 
 table caption + thead tr:first-child th,
 table caption + thead tr:first-child td,
@@ -321,9 +437,13 @@ table thead:first-child tr:first-child td {
     border-top: 0;
 }
 
-table tbody + tbody { border-top: #EFEFEF 2px solid; }
+table tbody + tbody {
+    border-top: #EFEFEF 2px solid;
+}
 
-table table table { background-color: #FFF; }
+table table table {
+    background-color: #FFF;
+}
 
 table tbody > tr:nth-child(odd) > td,
 table tbody > tr:nth-child(odd) > th {
@@ -332,7 +452,7 @@ table tbody > tr:nth-child(odd) > th {
 
 table.plain tbody > tr:nth-child(odd) > td,
 table.plain tbody > tr:nth-child(odd) > th {
-   background: transparent;
+    background: transparent;
 }
 
 iframe, .fluid-width-video-wrapper {
@@ -346,7 +466,6 @@ margin on the iframe, cause it breaks stuff. */
     margin: 0;
 }
 
-
 /* ==========================================================================
    3. Utilities - These things get used a lot
    ========================================================================== */
@@ -357,8 +476,14 @@ margin on the iframe, cause it breaks stuff. */
     content: " ";
     display: table;
 }
-.clearfix:after { clear: both; }
-.clearfix { *zoom: 1; }
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
 
 /* Hides */
 .hidden {
@@ -380,7 +505,6 @@ margin on the iframe, cause it breaks stuff. */
     display: table-cell;
     vertical-align: middle;
 }
-
 
 /* ==========================================================================
    4. General - The main styles for the the theme
@@ -419,7 +543,7 @@ margin on the iframe, cause it breaks stuff. */
     font-size: 34px;
     text-align: center;
     text-decoration: none;
-    color: rgba(255,255,255,0.7);
+    color: rgba(255, 255, 255, 0.7);
     -webkit-transform: rotate(-90deg);
     transform: rotate(-90deg);
     -webkit-animation: bounce 4s 2s infinite;
@@ -439,7 +563,8 @@ margin on the iframe, cause it breaks stuff. */
     font-family: cursive;
     text-decoration: none;
     text-align: center;
-    padding: 50px;
+    padding-top: 4.5rem;
+    padding-bottom: 2.5rem;
 }
 
 /* Every post, on every page, gets this style on its <article> tag */
@@ -503,13 +628,13 @@ body:not(.post-template) .post-title a {
     line-height: 1.5em;
 }
 
-
 /* ==========================================================================
    5. Single Post - When you click on an individual post
    ========================================================================== */
 
 .post-template .post-header {
-   margin-bottom: 3.4rem;
+    margin-top: 3.4rem;
+    margin-bottom: 2rem;
 }
 
 .post-template .post-title {
@@ -573,7 +698,6 @@ body:not(.post-template) .post-title a {
     font-size: 1rem;
     line-height: 1.75em;
 }
-
 
 /* Create some space to the right for the share links */
 .post-footer .author {
@@ -710,17 +834,20 @@ body:not(.post-template) .post-title a {
 .author-meta {
     margin: 1.6rem 0;
 }
+
 /* Location, website, and link */
 .author-profile .author-meta {
     margin: 2rem 0;
     letter-spacing: 0.01rem;
     font-size: 1.7rem;
 }
+
 .author-meta span {
     display: inline-block;
     margin: 0 2rem 1rem 0;
     word-wrap: break-word;
 }
+
 .author-meta a {
     text-decoration: none;
 }
@@ -740,11 +867,11 @@ body:not(.post-template) .post-title a {
     margin: 0;
     font-size: 1.4rem;
 }
+
 .gist .line-number {
     min-width: 25px;
     font-size: 1.1rem;
 }
-
 
 /* ==========================================================================
    8. Pagination - Tools to let you flick between pages
@@ -802,6 +929,7 @@ body:not(.post-template) .post-title a {
     display: none;
     border-bottom: #EBF2F6 1px solid;
 }
+
 .extra-pagination:after {
     display: block;
     content: "";
@@ -818,6 +946,7 @@ body:not(.post-template) .post-title a {
     border-radius: 100%;
     box-shadow: #FFF 0 0 0 5px;
 }
+
 .extra-pagination .pagination {
     width: auto;
 }
@@ -831,7 +960,6 @@ body:not(.post-template) .post-title a {
 .archive-template .extra-pagination {
     display: block;
 }
-
 
 /* ==========================================================================
    9. Footer - The bottom of every page
