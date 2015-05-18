@@ -3,9 +3,9 @@
 <head>
     <div>
         <div class="page-title">
-            <h1><a style="text-decoration: none;" href="{{ site.baseurl }}">{{ site.name }}</a>
-            {% include user_links.html %}
-            </h1>
+            <a href="{{ site.baseurl }}" class="page-title">{{ site.name }}</a>
+            <br/><br/><br/>
+            {% include social.html %}
         </div>
 
     </div>
@@ -19,8 +19,7 @@
     <meta name="MobileOptimized" content="320" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     {% if page.post_class == 'index' %}
-    <header class="main-header" style="background-image: url('http://jihedamine.github.io/assets/images/cover.png')">
-    </header>
+    <div class="main-header"></div>
     {% endif %}
 
     <link rel="stylesheet" type="text/css" href="/assets/css/screen.css" />

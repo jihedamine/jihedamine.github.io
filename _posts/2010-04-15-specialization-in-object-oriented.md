@@ -47,8 +47,10 @@ a = new B();
 a.foo();
 {% endhighlight %}
 
-Here, method foo() that was redefined in class B will be invoked because the dynamic type of the receiver is B. Dynamic type is the actual type of the object ({% highlight java %}a = new B();{% endhighlight %}) , whereas its static type is the type specified when declaring the object ({% highlight java %}A a;{% endhighlight %}).
-In this example, method foo is a global property introduced in class A. Class A defines a local property foo, belonging to the global property foo it introduced. Class B redefines the local property foo inherited from A. The call {% highlight java %}a.foo();{% endhighlight %} designates a global property foo. As both local properties defined in classes A and B belong to this global property foo, the most specific one according to the dynamic type of the receiver of the message will be chosen. In this case, instance a's dynamic type is B, so the local property foo defined in class B will be invoked.
+Here, method foo() that was redefined in class B will be invoked because the dynamic type of the receiver is B. Dynamic type is the actual type of the object {% highlight java %}a = new B();{% endhighlight %} whereas its static type is the type specified when declaring the object {% highlight java %}A a;{% endhighlight %}
+In this example, method foo is a global property introduced in class A. Class A defines a local property foo, belonging to the global property foo it introduced. Class B redefines the local property foo inherited from A. 
+
+The call {% highlight java %}a.foo();{% endhighlight %} designates a global property foo. As both local properties defined in classes A and B belong to this global property foo, the most specific one according to the dynamic type of the receiver of the message will be chosen. In this case, instance a's dynamic type is B, so the local property foo defined in class B will be invoked.
 
 ##References
 * [Ducournaud 2008] R. Ducournaud "Programmation par objets, les concepts fondamentaux", UFR des sciences, Université Montpellier II, 2008.

@@ -15,11 +15,11 @@ post_class: index
     {% for post in paginator.posts %}
 
     <article class="post">
-            <div class="post-title"><a href="{{ post.url }}">{{ post.title }}</a></div>
-
-            <time datetime="{{ post.date | date:"%Y-%m-%d" }}">
+        <div class="post-title"><a href="{{ post.url }}">{{ post.title }}</a>
+                <time class="post-meta" datetime="{{ post.date | date:" %Y-%m-%d" }}">
                 {{ post.date | date_to_string }}
-            </time>
+                </time>
+        </div>
     </article>
 
     {% endfor %}
