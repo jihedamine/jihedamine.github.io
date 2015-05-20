@@ -48,7 +48,7 @@ This will open the text editor to edit our cron job. Copy the following in the t
 * 4,8,16,19 * * * YOUR-HOME-FOLDER/.change.sh
 {% endhighlight %}
 
-As you see, the cron task will lauch our previously created script at 4am, 8am, 4pm and 7pm to set the adequate wallpaper. (Of course, you can change the hours at your convenience).
+As you see, the cron task will launch our previously created script at 4am, 8am, 4pm and 7pm to set the adequate wallpaper. (Of course, you can change the hours at your convenience).
 
 Now, let's add these tasks to our gnome session so that they are automatically launched every time we login.
 

@@ -214,7 +214,7 @@ html {
 }
 
 body {
-    font-family: "Merriweather", serif;
+    font-family: 'Martel Sans', sans-serif;
     letter-spacing: 0.01rem;
     font-size: 1.4rem;
     line-height: 1.75em;
@@ -512,7 +512,7 @@ margin on the iframe, cause it breaks stuff. */
 
 /* Big cover image on the home page */
 .main-header {
-    background-size: contain;
+    background-size: cover;
     background-color: black;
     background-image: url('../images/cover.png');
     height: 260px;
@@ -560,7 +560,7 @@ margin on the iframe, cause it breaks stuff. */
 /* The details of your blog. Defined in ghost/settings/ */
 .page-title {
     font-size: 4rem;
-    font-family: cursive;
+    font-family: Merienda;
     text-decoration: none;
     text-align: center;
     padding-top: 4.5rem;
@@ -576,9 +576,11 @@ margin on the iframe, cause it breaks stuff. */
     hyphens: auto;
 }
 
-body:not(.post-template) .post-title a {
+body:not(.post-template) .post-title a, h1.post-title {
+    font-family: 'Merienda', sans-serif;
     font-weight: bold;
     text-decoration: none;
+    color: black;
 }
 
 .post-meta {
