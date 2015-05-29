@@ -561,6 +561,7 @@ margin on the iframe, cause it breaks stuff. */
 .page-title {
     font-size: 3rem;
     font-weight: bold;
+    letter-spacing: -2px;
     font-family: Merienda, sans-serif;
     text-decoration: none;
     text-align: center;
