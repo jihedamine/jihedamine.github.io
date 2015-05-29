@@ -582,7 +582,7 @@ body:not(.post-template) .post-title a, h1.post-title {
     font-family: 'Merienda', sans-serif;
     font-weight: bold;
     font-size: 1.5rem;
-    letter-spacing: -2px;
+    letter-spacing: -1px;
     text-decoration: none;
 }
 
