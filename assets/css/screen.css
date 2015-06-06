@@ -581,6 +581,7 @@ margin on the iframe, cause it breaks stuff. */
     font-family: Signika, sans-serif;
     letter-spacing: -1px;
     text-decoration: none;
+    font-weight: normal;
 }
 
 .post-meta {
