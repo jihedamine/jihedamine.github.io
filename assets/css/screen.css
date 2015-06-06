@@ -229,7 +229,7 @@ h4, h5, h6 {
     -webkit-font-feature-settings: 'dlig' 1, 'liga' 1, 'lnum' 1, 'kern' 1;
     -moz-font-feature-settings: 'dlig' 1, 'liga' 1, 'lnum' 1, 'kern' 1;
     -o-font-feature-settings: 'dlig' 1, 'liga' 1, 'lnum' 1, 'kern' 1;
-    color: #2E2E2E;
+    /*color: #2E2E2E;*/
     line-height: 1.15em;
     margin: 0 0 0.4em 0;
 }
@@ -262,12 +262,12 @@ h6 {
 }
 
 a {
-    color: #4A4A4A;
+    color: #2b2b2b;
     transition: color ease 0.3s;
 }
 
 a:hover {
-    color: #111;
+    /*color: #111;*/
 }
 
 p, ul, ol, dl {
@@ -559,10 +559,9 @@ margin on the iframe, cause it breaks stuff. */
 
 /* The details of your blog. Defined in ghost/settings/ */
 .page-title {
-    font-size: 3rem;
-    font-weight: bold;
+    font-size: 3.5rem;
     letter-spacing: -2px;
-    font-family: Merienda, sans-serif;
+    font-family: Signika, sans-serif;
     text-decoration: none;
     text-align: center;
     padding-top: 4.5rem;
@@ -579,8 +578,7 @@ margin on the iframe, cause it breaks stuff. */
 }
 
 body:not(.post-template) .post-title a, h1.post-title {
-    font-family: 'Merienda', sans-serif;
-    font-weight: bold;
+    font-family: Signika, sans-serif;
     font-size: 1.5rem;
     letter-spacing: -1px;
     text-decoration: none;
@@ -710,7 +708,7 @@ body:not(.post-template) .post-title a, h1.post-title {
 }
 
 .post-footer h4 a {
-    color: #2e2e2e;
+    /*color: #2e2e2e;*/
     text-decoration: none;
 }
 
@@ -737,7 +735,7 @@ body:not(.post-template) .post-title a, h1.post-title {
 }
 
 .post-footer .share a:hover {
-    color: #50585D;
+    /*color: #50585D;*/
 }
 
 /* ==========================================================================
