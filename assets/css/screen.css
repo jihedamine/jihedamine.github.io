@@ -577,9 +577,8 @@ margin on the iframe, cause it breaks stuff. */
     hyphens: auto;
 }
 
-body:not(.post-template) .post-title a, h1.post-title {
+.post-title a, h1.post-title {
     font-family: Signika, sans-serif;
-    font-size: 1.5rem;
     letter-spacing: -1px;
     text-decoration: none;
 }
@@ -638,10 +637,6 @@ body:not(.post-template) .post-title a, h1.post-title {
 .post-template .post-header {
     margin-top: 3.4rem;
     margin-bottom: 2rem;
-}
-
-.post-template .post-title {
-    margin-bottom: 0;
 }
 
 .post-template .post-meta {
