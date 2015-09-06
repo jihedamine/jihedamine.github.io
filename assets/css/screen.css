@@ -512,7 +512,7 @@ margin on the iframe, cause it breaks stuff. */
 
 /* Big cover image on the home page */
 .main-header {
-    background-size: cover;
+    /*background-size: cover;*/
     background-color: black;
     background-image: url('../images/cover.png');
     height: 260px;
@@ -579,6 +579,7 @@ margin on the iframe, cause it breaks stuff. */
 
 .summary-post-title a, .post-title a, h1.post-title {
     font-family: 'Crete Round', serif;
+    font-size: 2rem;
     letter-spacing: -1px;
     text-decoration: none;
     font-weight: normal;
