@@ -41,7 +41,7 @@ audio:not([controls]) {
 }
 
 html {
-    font-family: 'Firas Serif', sans-serif;
+    font-family: 'Fira Serif', sans-serif;
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
 }
@@ -92,7 +92,7 @@ mark {
 
 code, kbd, pre,
 samp {
-    font-family: 'Firas Mono', monospace, sans-serif;
+    font-family: 'Fira Mono', monospace, sans-serif;
     font-size: 1em;
 }
 
@@ -214,7 +214,7 @@ html {
 }
 
 body {
-    font-family: 'Firas Serif', sans-serif;
+    font-family: 'Fira Serif', sans-serif;
     letter-spacing: 0.01rem;
     font-size: 1.4rem;
     line-height: 1.75em;
@@ -359,7 +359,7 @@ mark {
 
 code, tt {
     padding: 1px 3px;
-    font-family: 'Firas Mono', monospace, sans-serif;
+    font-family: 'Fira Mono', monospace, sans-serif;
     font-size: 0.85em;
     white-space: pre-wrap;
     border: #E3EDF3 1px solid;
@@ -374,7 +374,7 @@ pre {
     border: #E3EDF3 1px solid;
     width: 100%;
     padding: 10px;
-    font-family: 'Firas Mono', monospace, sans-serif;
+    font-family: 'Fira Mono', monospace, sans-serif;
     font-size: 0.9em;
     white-space: pre;
     overflow: auto;
@@ -516,7 +516,7 @@ margin on the iframe, cause it breaks stuff. */
     background-color: black;
     background-image: url('../images/cover.png');
     height: 260px;
-    /*width: 100%;*/
+    width: 100%;
     margin-bottom: 5rem;
 }
 
@@ -561,7 +561,7 @@ margin on the iframe, cause it breaks stuff. */
 .page-title {
     font-size: 3.5rem;
     letter-spacing: -2px;
-    font-family: 'Firas Sans', sans-serif;
+    font-family: 'Fira Sans', sans-serif;
     text-decoration: none;
     text-align: center;
     padding-top: 4.5rem;
@@ -578,7 +578,7 @@ margin on the iframe, cause it breaks stuff. */
 }
 
 .summary-post-title a, .post-title a, h1.post-title {
-    font-family: 'Firas Sans', sans-serif;
+    font-family: 'Fira Sans', sans-serif;
     letter-spacing: -1px;
     text-decoration: none;
     font-weight: normal;
