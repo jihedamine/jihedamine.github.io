@@ -236,13 +236,11 @@ h4, h5, h6 {
 
 h1 {
     font-size: 2.3rem;
-    letter-spacing: -2px;
     text-indent: -3px;
 }
 
 h2 {
     font-size: 1.6rem;
-    letter-spacing: -1px;
 }
 
 h3 {
@@ -550,7 +548,6 @@ margin on the iframe, cause it breaks stuff. */
 /* The details of your blog. Defined in ghost/settings/ */
 .page-title {
     font-size: 3.5rem;
-    letter-spacing: -2px;
     font-family: 'Liberation Serif', serif;
     text-decoration: none;
     text-align: center;
@@ -570,13 +567,8 @@ margin on the iframe, cause it breaks stuff. */
 .summary-post-title a, .post-title a, h1.post-title {
     font-family: 'Liberation Serif', serif;
     font-size: 2rem;
-    letter-spacing: -1px;
     text-decoration: none;
     font-weight: normal;
-}
-
-.post-title a, h1.post-title {
-    letter-spacing: -2.5px;
 }
 
 .post-meta {
