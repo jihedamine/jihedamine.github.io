@@ -547,12 +547,12 @@ margin on the iframe, cause it breaks stuff. */
 
 /* The details of your blog. Defined in ghost/settings/ */
 .page-title {
-    font-size: 3.5rem;
+    font-size: 4rem;
     font-family: 'Liberation Serif', serif;
     text-decoration: none;
     text-align: center;
     padding-top: 4.5rem;
-    padding-bottom: 2.5rem;
+    padding-bottom: 4.5rem;
     font-weight: bold;
 }
 
@@ -567,7 +567,6 @@ margin on the iframe, cause it breaks stuff. */
 
 .summary-post-title a, .post-title a, h1.post-title {
     font-family: 'Liberation Serif', serif;
-    font-size: 2em;
     text-decoration: none;
     font-weight: bold;
 }
