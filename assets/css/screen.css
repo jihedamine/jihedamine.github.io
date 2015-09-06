@@ -561,7 +561,7 @@ margin on the iframe, cause it breaks stuff. */
 .page-title {
     font-size: 3.5rem;
     letter-spacing: -2px;
-    font-family: 'Cinzel Decorative', sans-serif;
+    font-family: 'Squada One', sans-serif;
     text-decoration: none;
     text-align: center;
     padding-top: 4.5rem;
@@ -578,7 +578,7 @@ margin on the iframe, cause it breaks stuff. */
 }
 
 .summary-post-title a, .post-title a, h1.post-title {
-    font-family: 'Cinzel Decorative', sans-serif;
+    font-family: 'Squada One', sans-serif;
     letter-spacing: -1px;
     text-decoration: none;
     font-weight: normal;
