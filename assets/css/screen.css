@@ -553,6 +553,7 @@ margin on the iframe, cause it breaks stuff. */
     text-align: center;
     padding-top: 4.5rem;
     padding-bottom: 2.5rem;
+    font-weight: bold;
 }
 
 /* Every post, on every page, gets this style on its <article> tag */
@@ -569,6 +570,10 @@ margin on the iframe, cause it breaks stuff. */
     font-size: 2rem;
     text-decoration: none;
     font-weight: normal;
+}
+
+h1.post-title {
+    font-weight: bold;
 }
 
 .post-meta {
