@@ -41,7 +41,7 @@ audio:not([controls]) {
 }
 
 html {
-    font-family: 'Neuton', sans-serif;
+    font-family: 'Crete Round', sans-serif;
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
 }
@@ -214,7 +214,7 @@ html {
 }
 
 body {
-    font-family: 'Neuton', sans-serif;
+    font-family: 'Crete Round', sans-serif;
     letter-spacing: 0.01rem;
     font-size: 1.4rem;
     line-height: 1.75em;
@@ -561,7 +561,7 @@ margin on the iframe, cause it breaks stuff. */
 .page-title {
     font-size: 3.5rem;
     letter-spacing: -2px;
-    font-family: 'Tillana', sans-serif;
+    font-family: 'Arimo', sans-serif;
     text-decoration: none;
     text-align: center;
     padding-top: 4.5rem;
@@ -578,7 +578,7 @@ margin on the iframe, cause it breaks stuff. */
 }
 
 .summary-post-title a, .post-title a, h1.post-title {
-    font-family: 'Tillana', sans-serif;
+    font-family: 'Arimo', sans-serif;
     letter-spacing: -1px;
     text-decoration: none;
     font-weight: normal;
