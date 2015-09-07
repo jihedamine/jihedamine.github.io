@@ -5,6 +5,7 @@ layout: "post"
 comments: true
 date: "2008-02-25 19:32:00"
 updated: "2012-12-17 20:00:27"
+permalink: "enaling-high-resolution-console-in"
 categories: [usplash, Linux]
 ---
 I personally don't like the usplash displayed at bootup/shutdown in Ubuntu, I rather prefer seeing console messages.  

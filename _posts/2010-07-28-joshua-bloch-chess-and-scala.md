@@ -5,6 +5,7 @@ layout: post
 comments: true
 date: 2010-07-28
 categories:
+permalink: "joshua-bloch-chess-and-scala"
 tags: [java, scala]
 ---
 ##Joshua Bloch

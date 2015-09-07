@@ -5,6 +5,7 @@ layout: "post"
 comments: true
 date: "2010-04-15 21:40:00"
 updated: "2012-12-18 02:02:29"
+permalink: "specialization-in-object-oriented"
 categories: [Java, design, oo]
 ---
 In this post, we will briefly introduce Object Oriented fundamental concepts and talk about specialization in O.O. paradigm.

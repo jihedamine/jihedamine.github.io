@@ -5,6 +5,7 @@ layout: "post"
 comments: true
 date: "2010-04-15 21:41:00"
 updated: "2012-12-17 19:59:23"
+permalink: "differences-between-two-versions-of"
 categories: [latex, latexdiff]
 ---
 [Latexdiff](http://www.ctan.org/tex-archive/support/latexdiff/) is a free perl script that highlights what has been added and what has been deleted between two versions of a latex document.

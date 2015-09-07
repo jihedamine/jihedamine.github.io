@@ -5,6 +5,7 @@ layout: "post"
 comments: true
 date: "2007-11-16 13:15:00"
 updated: "2012-12-17 20:04:32"
+permalink: "why-i-tend-to-prefer-netbeans-over"
 categories: [Java, eclipse, netbeans]
 ---
 Even though Eclipse is surely the dominant Java IDE in the market, there are some reasons that make me prefer Netbeans over it :

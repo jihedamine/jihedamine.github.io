@@ -5,6 +5,7 @@ layout: "post"
 comments: true
 date: "2007-10-22 17:16:00"
 updated: "2012-12-17 20:04:15"
+permalink: "hello-world"
 categories:
 ---
 Welcome to my blog!

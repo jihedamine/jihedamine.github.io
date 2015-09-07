@@ -4,6 +4,7 @@ description: "How to setup a PostgreSQL database on Fedora 11"
 layout: "post"
 comments: true
 date: "2010-04-15 21:41:00"
+permalink: "setup-postgres-database-on-fedora-11"
 categories: [Linux, postgres]
 ---
 I found some blog posts and tutorials on how to set up a Postgres server and initiate a database. To make it work on my Fedora 11 system, I made a mix of the various instructions found here and there. Therefore, I'm publishing the steps I had to follow to get a Postgres server running and setup an initial database on Fedora 11 (it should be similar on other Unix systems).

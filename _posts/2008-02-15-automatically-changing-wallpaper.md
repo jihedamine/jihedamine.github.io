@@ -5,6 +5,7 @@ layout: "post"
 comments: true
 date: "2008-02-15 15:24:00"
 updated: "2012-12-19 02:49:40"
+permalink: "automatically-changing-wallpaper"
 categories: [bash, Linux, cron]
 ---
 Fedora 8 introduced a nice feature which is automatically changing wallpaper relatively to daytime.
