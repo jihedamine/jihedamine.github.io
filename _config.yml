@@ -2,8 +2,8 @@
 title:       Code is poetry
 email:       jihedamine@gmail.com
 author:      Jihed Amine Maaref
-description: "Java."
-baseurl:     ""
+description: "Personal blog about Java development."
+baseurl:     "http://jihedamine.github.io"
 url:         "http://jihedamine.github.io"
 date_format: "%b %-d, %Y"
 
