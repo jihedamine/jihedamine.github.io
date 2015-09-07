@@ -566,7 +566,7 @@ margin on the iframe, cause it breaks stuff. */
     hyphens: auto;
 }
 
-.summary-post-title a, .post-title a, h1.post-title {
+.summary-post-title a {
     font-family: 'Liberation Serif', serif;
     text-decoration: none;
     font-size: 1.4rem;

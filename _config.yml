@@ -10,5 +10,5 @@ domain_name: 'http://jihedamine.github.io'
 google_analytics: 'UA-60516726-1'
 disqus-shortname: jihedamine
 # Details for the RSS feed generator
-url:            'http://jihedamine.github.io'
-author:         'Jihed Amine Maaref'
+url: 'http://jihedamine.github.io'
+author: 'Jihed Amine Maaref'
