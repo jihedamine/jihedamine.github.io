@@ -913,10 +913,13 @@ margin on the iframe, cause it breaks stuff. */
     border-color: #98a0a4;
 }
 
+.summary-top {
+    margin-top: 3px;
+}
+
 .extra-pagination {
-    border-top: 2px
-    /*display: none;*/
-    /*border-bottom: #EBF2F6 1px solid;*/
+    display: none;
+    border-bottom: #EBF2F6 1px solid;
 }
 
 .extra-pagination:after {
