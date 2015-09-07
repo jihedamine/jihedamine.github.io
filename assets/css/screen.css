@@ -914,7 +914,7 @@ margin on the iframe, cause it breaks stuff. */
 }
 
 .summary-top {
-    margin-top: 3px;
+    padding: 2rem;
 }
 
 .extra-pagination {
