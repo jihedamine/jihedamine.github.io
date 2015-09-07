@@ -4,7 +4,7 @@ email:       jihedamine@gmail.com
 author:      Jihed Amine Maaref
 description: "Java."
 baseurl:     ""
-url:         "jihedamine.github.io"
+url:         "http://jihedamine.github.io"
 date_format: "%b %-d, %Y"
 
 # Google services
