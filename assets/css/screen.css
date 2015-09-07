@@ -548,7 +548,7 @@ margin on the iframe, cause it breaks stuff. */
 /* The details of your blog. Defined in ghost/settings/ */
 .page-title {
     font-size: 4rem;
-    font-family: 'Liberation Serif', serif;
+    font-family: 'Walter Turncoat', serif;
     background-color: lightskyblue;
     text-decoration: none;
     text-align: center;
