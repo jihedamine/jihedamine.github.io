@@ -914,8 +914,9 @@ margin on the iframe, cause it breaks stuff. */
 }
 
 .extra-pagination {
-    display: none;
-    border-bottom: #EBF2F6 1px solid;
+    border-top: 2px
+    /*display: none;*/
+    /*border-bottom: #EBF2F6 1px solid;*/
 }
 
 .extra-pagination:after {
