@@ -8,55 +8,6 @@ categories:
 permalink: "docker-liferay-osx"
 tags: [docker, liferay, osx]
 ---
-##Install docker on OSX
-To install:
-
-* Download docker [This one](http://www.youtube.com/watch?v=V1vQf4qyMXg)
-* [The second presentation](http://www.youtube.com/watch?v=RR1E5zO-eBo) is about GWT or "gwit" as they call it at Google. Very interactive session where Josh responds to the host and to attendees.
-* [The third one](http://www.youtube.com/watch?v=aAb7hSCtvGw) gives a lot of precious advice on good API design.
-
-##Use docker-machine
-{% highlight bash%}
-> docker-machine ls
-
-NAME      ACTIVE   DRIVER       STATE     URL   SWARM
-default            virtualbox   Stopped         
-
-> docker-machine start default
-Starting VM...
-Started machines may have new IP addresses. You may need to re-run the `docker-machine env` command.
-
-> docker-machine env default
-export DOCKER_TLS_VERIFY="1"
-export DOCKER_HOST="tcp://192.168.99.100:2376"
-export DOCKER_CERT_PATH="/Users/jihedamine/.docker/machine/machines/default"
-export DOCKER_MACHINE_NAME="default"
-# Run this command to configure your shell: 
-# eval "$(docker-machine env default)"
-
-> docker-machine ssh default
-
-                        ##         .
-                  ## ## ##        ==
-               ## ## ## ## ##    ===
-           /"""""""""""""""""\___/ ===
-      ~~~ {~~ ~~~~ ~~~ ~~~~ ~~~ ~ /  ===- ~~~
-           \______ o           __/
-             \    \         __/
-              \____\_______/
- _                 _   ____     _            _
-| |__   ___   ___ | |_|___ \ __| | ___   ___| | _____ _ __
-| '_ \ / _ \ / _ \| __| __) / _` |/ _ \ / __| |/ / _ \ '__|
-| |_) | (_) | (_) | |_ / __/ (_| | (_) | (__|   <  __/ |
-|_.__/ \___/ \___/ \__|_____\__,_|\___/ \___|_|\_\___|_|
-Boot2Docker version 1.8.2, build master : aba6192 - Thu Sep 10 20:58:17 UTC 2015
-Docker version 1.8.2, build 0a8c2e3
-
-docker@default:~$ ls /
-Users/   dev/     home/    lib/     linuxrc  opt/     root/    sbin/    tmp      var/
-bin/     etc/     init     lib64    mnt/     proc/    run/     sys/     usr/
-{% endhighlight %}
-
 ##Create the containers and data volumes
 Steps to reproduce: 
 
