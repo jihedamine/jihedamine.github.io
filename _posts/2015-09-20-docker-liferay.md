@@ -1,12 +1,12 @@
 ---
-title: "Setup a docker environment for Liferay with MySQL on OSX"
-description: "How to setup a docker environment for Liferay with MySQL on OSX"
+title: "Setup a docker environment for Liferay with MySQL"
+description: "How to setup a docker environment for Liferay with MySQL"
 layout: post
 comments: true
 date: 2015-09-20
 categories:
-permalink: "docker-liferay-osx"
-tags: [docker, liferay, osx]
+permalink: "docker-liferay"
+tags: [docker, liferay]
 ---
 ##Create the containers and data volumes
 Steps to reproduce: 
