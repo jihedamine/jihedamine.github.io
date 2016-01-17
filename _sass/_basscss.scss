@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*!
 
   BASSCSS
@@ -9,17 +10,17 @@
 
 */
 
-@import 'basscss/base-buttons';
-@import 'basscss/base-forms';
-@import 'basscss/base-reset';
-@import 'basscss/base-typography';
+@import 'basscss/_base-buttons';
+@import 'basscss/_base-forms';
+@import 'basscss/_base-reset';
+@import 'basscss/_base-typography';
 
-@import 'basscss/buttons-blue';
+@import 'basscss/_buttons-blue';
 
-@import 'basscss/syntax-highlighting';
-@import 'basscss/color-base';
-@import 'basscss/colors';
+@import 'basscss/_syntax-highlighting';
+@import 'basscss/_color-base';
+@import 'basscss/_colors';
 
-@import 'basscss/utility-headings';
-@import 'basscss/utility-typography';
-@import 'basscss/utility-white-space';
+@import 'basscss/_utility-headings';
+@import 'basscss/_utility-typography';
+@import 'basscss/_utility-white-space';

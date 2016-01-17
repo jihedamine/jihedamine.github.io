@@ -1,11 +1,13 @@
+gems: [jekyll-paginate]
+
 # Site settings
 title:       Code is poetry
 email:       jihedamine@gmail.com
 author:      Jihed Amine Maaref
 description: "Personal blog about Java development."
-#baseurl:     "http://jihedamine.github.io"
-#url:         "http://jihedamine.github.io"
-url: localhost
+baseurl: ""
+url: "http://jihedamine.github.io"
+#url: "http://localhost:4000"
 date_format: "%b %-d, %Y"
 
 # Google services
