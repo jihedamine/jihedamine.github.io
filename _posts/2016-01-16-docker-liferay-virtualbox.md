@@ -8,7 +8,7 @@ categories:
 permalink: "docker-liferay-virtualbox"
 tags: [docker, liferay, virtualbox]
 ---
-#What is Docker?
+# What is Docker?
 Docker is a tool that packages an application and its dependencies in a virtual container that can run on any Linux server (The linux server would run inside a virtual machine on OS X and Windows environments).
 
 Docker has been gaining momentum since it was first released two years ago. It commoditized operating system virtualization by providing an abstraction layer over <a href="https://linuxcontainers.org" target="_blank">LXC</a>. Docker is very useful to quickly recreate identical development environements on any machine, simply using container images. The main advantage of OS virtualization, as opposed to hardware virtualization using virtual machines, is that containers are a thin isolated layer that shares the host OS's binaries and libraries, resulting in minimal overhead.
@@ -17,10 +17,10 @@ Each docker container would run one process. Multiple containers can be linked t
 In the following example we will be setting up a liferay environment with a container for Liferay's webapp, linked to a container for a MySQL database server. Each container uses a data volume to persist data.  
 The setup can instantiate a vanilla liferay instance, but it can also be tweaked to use an existing database and existing liferay data.
 
-#Using Docker in a non-Linux environment
+# Using Docker in a non-Linux environment
 Docker provides a 'Docker Machine' for OS X and Windows to host a Linux virtual machine that runs docker. However, we won't be using that Docker Machine, but we will set up our own Arch Linux VM and configure networking to enable access to the services running on docker containers from our Windows host.
 
-#Setup docker inside an Arch Linux VM
+# Setup docker inside an Arch Linux VM
 Installing docker on a Linux system is pretty easy.  
 In Arch Linux, we install the docker package with pacman
 {% highlight bash%}sudo pacman -S docker{% endhighlight %}
@@ -29,13 +29,13 @@ and start the docker service
 The service can be set to start automatically when the system starts
 {% highlight bash%}sudo systemctl enable docker{% endhighlight %}
 
-#Create the docker containers
+# Create the docker containers
 The docker image definitions and the file resources used in our setup are available in <a href="https://github.com/jihedamine/docker-liferay" target="_blank">this repository</a>
 
-##MySQL
+## MySQL
 We will begin by creating a MySQL container that will run the MySQL server process and serve as a DBMS for Liferay.  
 
-###Create a data volume for MySQL data
+### Create a data volume for MySQL data
 A separate data volume will be used by the MySQL server to store data.
 Using separate data volumes to store data has several advantages among which separating specific data from generic container images, keeping the container image size small, reusing the same data across multiple containers, etc. More details on data volumes can be found in <a href="https://docs.docker.com/engine/userguide/dockervolumes/" target="_blank">docker's documentation</a>.
 
@@ -46,7 +46,7 @@ sudo docker create --name mysqldata_1 -v ${PWD}/volumes/mysqldata busybox
 We name this container mysqldata_1, we bind the folder under the current directory/volumes/mysqldata as a volume and we use the busybox docker image to create our container instance.  
 busybox is a minimal linux image (about 2.5 Mb in size) which combines tiny versions of many common Unix utilities. That image would be enough for us to create a data volume.
 
-###Create the MySQL server container
+### Create the MySQL server container
 We now run a MySQL server that will use the previously created data volume.
 {% highlight bash%}
 sudo docker run -t --name mysql_1 -e MYSQL_ROOT_PASSWORD=secret --volumes-from mysqldata_1 --publish 0.0.0.0:3306:3306 -d mysql:5.5
@@ -60,7 +60,7 @@ Docker's run command executes a command inside a new container and is equivalent
 Finally, we specify the docker image we'll use to create the container. The <a href="https://hub.docker.com/_/mysql" target="_blank">mysql image</a> is a public Docker image available on the Docker Hub. The image's docker hub page has an exhaustive description explaining how to use that image.  
 We specify the version of the image to use with \<image-name\>:\<version\>. Here, we are using the 5.5 version of the mysql image. If we don't specify a version, the latest one is used.
 
-###List docker images and containers
+### List docker images and containers
 At this point, we can list the docker images available on our machine 
 {% highlight bash%}
 > sudo docker images
@@ -77,7 +77,7 @@ f02b2760d37b    busybox     "sh"                     6 weeks ago      Exited (0)
 {% endhighlight %}
 The -a option makes docker display all existing containers including those that were stopped
 
-###Inspect containers
+### Inspect containers
 We can inspect a container (see its properties) with the command docker inspect \<container-name\>. 
 To get the IPAddress of our mysql_1 container, we would grep the inspect command's results having the string 'IPAddress'.
 {% highlight bash%}
@@ -87,7 +87,7 @@ To get the IPAddress of our mysql_1 container, we would grep the inspect command
                 "IPAddress": "172.17.0.2",
 {% endhighlight %}
 
-###Populate the MySQL database for Liferay
+### Populate the MySQL database for Liferay
 Having started a MySQL server, we will now create a sql file with instructions to create a DB user and a database for Liferay, minimally with the following content. 
 {% highlight bash%}
 create user lportal identified by 'lportal';
@@ -102,17 +102,17 @@ The SQL file is imported in our MySQL server running in the mysql_1 container an
 sudo docker exec -i mysql_1 mysql -uroot -psecret < initdb.sql
 {% endhighlight %}
 
-##Liferay
+## Liferay
 Now that we have a MySQL database ready for Liferay, we will create the Liferay docker image itself.
   
-###Create a data volume for Liferay data
+### Create a data volume for Liferay data
 Similarly to the data volume used to persist the MySQL server's data, a second data volume will be used to persist our liferay container's data. The Liferay data volume is also based on the tiny linux image of busybox.
 
 {% highlight bash%}
 sudo docker run -v ${PWD}/volumes/liferaydata:/opt/liferay-portal/data --name liferaydata_1 busybox
 {% endhighlight %}
 
-###Create the Liferay image
+### Create the Liferay image
 A docker image, like the Liferay image we will create, is defined using a Dockerfile. To quote the official Docker documentation, a Dockerfile is "a text document that contains all the commands a user could call on the command line to assemble an image". 
 
 The Dockerfile of our Liferay image is based on an Oracle JDK Docker image. It downloads Liferay, unzips and installs it, then adds configuration files, exposes the 8080 port and defines a data volume in /opt/liferay-portal/data folder. 
@@ -152,7 +152,7 @@ ENTRYPOINT ["/opt/liferay-portal/tomcat/bin/catalina.sh"]
 CMD ["run"]
 {% endhighlight %}
 
-###Run the Liferay image
+### Run the Liferay image
 We build the Liferay image using the Dockerfile previously defined. Next, we run that image, linking it to the mysql_1 container that is executing the MySQL server, and using the liferaydata_1 data volume to store liferay's data.
 
 {% highlight bash%}
@@ -171,10 +171,10 @@ Once the Liferay server container is started, we can connect to it with a shell 
 sudo docker exec -it liferay_1 bash
 {% endhighlight %}
 
-#Connect from the Windows host
+# Connect from the Windows host
 Now that the containers are running in our Arch Linux VirtualBox image, we need to setup port forwarding to be able to get, from our Windows host, to the ports for which the Liferay and MySQL servers are listening.
 
-##Setup port forwarding
+## Setup port forwarding
 In VirtualBox manager, we open the Arch Linux VM settings, and go to the Network options. 
 From there, we setup a NAT network adapter.
 <image src="/images/docker-liferay-virtualbox/portForwarding.png" alt="VirtualBox port forwarding"/>
@@ -183,15 +183,15 @@ The following rules state that every request going to the ports 8080 and 3306 on
 <image src="/images/docker-liferay-virtualbox/portForwarding2.png" alt="VirtualBox port forwarding"/>
 More information on VirtualBox's Networking and the NAT mode can be found <a href="https://www.virtualbox.org/manual/ch06.html#network_nat" target="_blank">here</a>.
 
-##Connect to MySQL database from host
+## Connect to MySQL database from host
 We can check that the MySQL server is up and that it is accessible from the Windows host by connecting to a localhost MySQL server on port 3306, using any MySQL client on the Windows host.
 <image src="/images/docker-liferay-virtualbox/mysql-access.png" alt="Connect to the MySQL server from host"/>
 
-##Connect to Liferay webapp from host
+## Connect to Liferay webapp from host
 We can also get to the Liferay webapp from the Windows host by connecting to its port 8080 from a web browser. The request will be forwarded to the port 8080 of the Arch Linux VM, where the Liferay container is listening to all the requests coming to port 8080. 
 <image src="/images/docker-liferay-virtualbox/liferay-access.png" alt="Connect to the MySQL server from host"/>
 
-#Wrap-up
+# Wrap-up
 In this article, we have setup docker inside an Arch Linux VM running on a Windows host. Then, we created data volumes to store MySQL and Liferay data, as well as a MySQL container and a Liferay container linked to it. After that, we setup port forwarding in our Arch Linux VM to be able to get to the Docker containers from the Windows host.
 
 You are welcome to have a look at the <a href="https://github.com/jihedamine/docker-liferay" target="_blank">project files</a> and contribute with your comments below.

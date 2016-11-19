@@ -9,7 +9,7 @@ categories: [Linux, postgres]
 ---
 I found some blog posts and tutorials on how to set up a Postgres server and initiate a database. To make it work on my Fedora 11 system, I made a mix of the various instructions found here and there. Therefore, I'm publishing the steps I had to follow to get a Postgres server running and setup an initial database on Fedora 11 (it should be similar on other Unix systems).
 
-##As root:
+## As root:
 1- Install postgres-server, it will install the required postgres client dependency:
 
 {% highlight bash %}
@@ -47,7 +47,7 @@ host    all         all         ::1/128               trust
 service postgresql restart
 {% endhighlight %}
 
-##As regular user:
+## As a regular user:
 
 5- Connect to the database using the default account postgres. You will be prompted for a password. Account postgres has a password by default that is 'postgres'.
 {% highlight bash %}
