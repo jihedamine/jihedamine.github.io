@@ -1,5 +1,3 @@
-gems: [jekyll-paginate]
-
 # Site settings
 title:       Code is poetry
 email:       jihedamine@gmail.com
@@ -55,9 +53,10 @@ share_hackernews: false
 markdown:     kramdown
 kramdown:
   input: GFM
-redcarpet:
-  extensions: ['smart', 'tables', 'with_toc_data']
 permalink:    pretty
-paginate:     4
-sass:
-  compressed: true
+theme: minima
+gems:
+  - jekyll-feed
+exclude:
+  - Gemfile
+  - Gemfile.lock
