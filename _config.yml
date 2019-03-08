@@ -50,10 +50,10 @@ share_stumbleupon: false
 share_hackernews: false
 
 # Build settings
-markdown:     kramdown
+markdown: kramdown
 kramdown:
   input: GFM
-permalink:    pretty
+permalink: pretty
 theme: minima
 gems:
   - jekyll-feed
