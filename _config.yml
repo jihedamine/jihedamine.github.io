@@ -54,7 +54,7 @@ markdown:     kramdown
 kramdown:
   input: GFM
 permalink:    pretty
-theme: jekyll-theme-hacker
+theme: jekyll-theme-architect
 gems:
   - jekyll-feed
 exclude:
