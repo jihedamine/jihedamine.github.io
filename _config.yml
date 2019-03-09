@@ -66,3 +66,5 @@ permalink: pretty
 exclude:
   - Gemfile
   - Gemfile.lock
+
+theme: jekyll-theme-hacker
