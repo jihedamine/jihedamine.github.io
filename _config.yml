@@ -50,13 +50,19 @@ share_stumbleupon: false
 share_hackernews: false
 
 # Build settings
+remote_theme: chesterhow/tale
+
+plugins:
+  - jekyll-paginate
+  - jekyll-remote-theme
+  - jekyll-feed
+
 markdown: kramdown
 kramdown:
   input: GFM
+
 permalink: pretty
-theme: minima
-gems:
-  - jekyll-feed
+
 exclude:
   - Gemfile
   - Gemfile.lock
