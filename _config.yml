@@ -8,9 +8,23 @@ url: "http://jihedamine.github.io"
 #url: "http://localhost:4000"
 date_format: "%b %-d, %Y"
 
+# Build settings
+#theme: minima
+#gems:
+ # - jekyll-feed
+#exclude:
+ # - Gemfile
+ # - Gemfile.lock
+
+markdown: kramdown
+#kramdown:
+#  input: GFM
+
+permalink: pretty
+
 # Google services
-google_analytics: 'UA-60516726-1'
-google_verification:
+#google_analytics: 'UA-60516726-1'
+#google_verification:
 
 # Optional features
 animated:           true
@@ -48,18 +62,3 @@ share_tumblr: false
 share_reddit: true
 share_stumbleupon: false
 share_hackernews: false
-
-# Build settings
-theme: minima
-
-gems:
-  - jekyll-feed
-exclude:
-  - Gemfile
-  - Gemfile.lock
-
-markdown: kramdown
-kramdown:
-  input: GFM
-
-permalink: pretty
