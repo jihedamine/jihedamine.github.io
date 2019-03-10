@@ -10,7 +10,7 @@ categories: [Java, design, oo]
 ---
 In this post, we will briefly introduce Object Oriented fundamental concepts and talk about specialization in O.O. paradigm.
 
-##Fundamental O.O. Concepts
+## Fundamental O.O. Concepts
 Object Oriented programming had a lot of success in the last decades mainly because it is equivalent to the way humans think. In fact, people categorize and classify entities, associate a state to an entity and distinguish some operations this entity is able to do. Moreover, O.O. paradigm is adequate with software engineering requirements. It is evolutionary, reusable, expressive, easily maintainable...  The main concept in O.O. paradigm is the *object*.
 It is a capsule that wraps *properties* and has an identity.
 Properties can be *attributes*, *methods* or other things (virtual types...).
@@ -28,7 +28,7 @@ a.foo();
 {% endhighlight %}
 A is called the *fonreceiver*, foo is called the *message*.
 
-##Specialization
+## Specialization
 Specialization relationship establishes the concepts of super classes and sub classes. A class can *inherit* the properties of the superclass it *specializes* and *extend* it by redefining the inherited properties and introducing new ones.
 
 <u>Extensions:</u> A class extension is the set of its instances.
@@ -53,7 +53,7 @@ In this example, method foo is a global property introduced in class A. Class A 
 
 The call {% highlight java %}a.foo();{% endhighlight %} designates a global property foo. As both local properties defined in classes A and B belong to this global property foo, the most specific one according to the dynamic type of the receiver of the message will be chosen. In this case, instance a's dynamic type is B, so the local property foo defined in class B will be invoked.
 
-##References
+## References
 * [Ducournaud 2008] R. Ducournaud "Programmation par objets, les concepts fondamentaux", UFR des sciences, Université Montpellier II, 2008.
 
 * [Privat 2006] J. Privat "De l'expressivité à l'efficacité. Une approche modulaire des langages à objet", Université Montpellier II, 2006.

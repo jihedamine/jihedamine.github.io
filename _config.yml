@@ -1,18 +1,54 @@
-theme: jekyll-theme-hacker
+# Site settings
+title:       Code is poetry
+email:       jihedamine@icloud.com
+author:      Jihed Amine Maaref
+description: "Personal blog about Java development."
+baseurl: ""
+#url: "http://jihedamine.github.io"
+url: "http://localhost:4000"
+date_format: "%b %-d, %Y"
+
+#theme: minima
+markdown: kramdown
+kramdown:
+  input: GFM
+permalink: pretty
+plugins:
+  - jekyll-feed
+exclude:
+  - Gemfile
+  - Gemfile.lock
 
 # Disqus post comments
 # (leave blank to disable Disqus)
 disqus_shortname: jihedamine
 
+# Google services
+google_analytics: 'UA-60516726-1'
+google_verification:
+
 # Social icons
 github_username: jihedamine
-bitbucket_username:
 stackoverflow_id: 338784
-twitter_username:
-google_plus_id:
 linkedin_username: jihedamine
-angellist_username:
-medium_id:
-bitcoin_url:
-paypal_url:
-flattr_button:
+
+# Optional features
+animated:           true
+show_related_posts: false
+show_post_footers:  true
+show_social_icons:  true
+
+# Post sharing icons
+show_sharing_icons: true
+share_text: 'Share this post!'
+
+# Change to 'true' to enable individual icons
+share_facebook: true
+share_twitter: true
+share_googleplus: true
+share_linkedin: true
+share_reddit: true
+share_digg: false
+share_tumblr: false
+share_stumbleupon: false
+share_hackernews: false
