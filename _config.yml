@@ -4,8 +4,8 @@ email:       jihedamine@icloud.com
 author:      Jihed Amine Maaref
 description: "Personal blog about Java development."
 baseurl: ""
-#url: "http://jihedamine.github.io"
-url: "http://localhost:4000"
+url: "http://jihedamine.github.io"
+#url: "http://localhost:4000"
 date_format: "%b %-d, %Y"
 
 #theme: minima
